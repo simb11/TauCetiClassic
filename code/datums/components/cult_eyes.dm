@@ -5,6 +5,8 @@
  */
 /datum/element/cult_eyes
 	element_flags = ELEMENT_DETACH
+	var/trait = TRAIT_CULT_EYES
+	var/trait_source = RELIGION_TRAIT
 
 /datum/element/cult_eyes/Attach(datum/target)
 	. = ..()
@@ -28,7 +30,7 @@
 		H.g_eyes = 0
 		H.b_eyes = 0
 		H.update_body()
-		ADD_TRAIT(target, TRAIT_CULT_EYES, RELIGION_TRAIT)
+		ADD_TRAIT(target, trait, trait_source)
 
 /**
  * Detach proc
@@ -36,7 +38,7 @@
  * Removes the eye color, and trait from the mob
  */
 /datum/element/cult_eyes/Detach(mob/living/target, ...)
-	REMOVE_TRAIT(target, TRAIT_CULT_EYES, RELIGION_TRAIT)
+	REMOVE_TRAIT(target, trait, trait_source)
 	if (ishuman(target))
 		var/mob/living/carbon/human/H = target
 		H.r_eyes = rand(0,125)
@@ -45,3 +47,17 @@
 		H.update_body()
 	UnregisterSignal(target, list(COMSIG_CHANGELING_TRANSFORM, COMSIG_HUMAN_MONKEYIZE, COMSIG_MONKEY_HUMANIZE))
 	return ..()
+
+/datum/element/cult_eyes/medical
+	trait = TRAIT_MEDICAL_VISOR
+	trait_source = IMPLANT_TRAIT
+
+/datum/element/cult_eyes/medical/set_eyes(mob/living/target)
+	SIGNAL_HANDLER
+	if(ishuman(target))
+		var/mob/living/carbon/human/H = target
+		H.r_eyes = 0
+		H.g_eyes = 0
+		H.b_eyes = 255
+		H.update_body()
+		ADD_TRAIT(target, trait, trait_source)

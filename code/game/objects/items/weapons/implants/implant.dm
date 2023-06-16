@@ -632,12 +632,12 @@ var/global/list/death_alarm_stealth_areas = list(
 	var/mob/M = imp_in
 	if(implanted && !HAS_TRAIT(M, TRAIT_MEDICAL_VISOR))
 		med.add_hud_to(M)
-		ADD_TRAIT(M, TRAIT_MEDICAL_VISOR, IMPLANT_TRAIT)
+		imp_in.AddElement(/datum/element/cult_eyes/medical)
 		return
 
 /obj/item/weapon/implant/medical_visor/proc/removed()
 	var/mob/living/M = imp_in
 	var/datum/atom_hud/med = global.huds[DATA_HUD_MEDICAL_IMPLANT]
-	REMOVE_TRAIT(M, TRAIT_MEDICAL_VISOR, IMPLANT_TRAIT)
+	M.RemoveElement(/datum/element/cult_eyes/medical)
 	med.remove_hud_from(M)
 	qdel(src)
