@@ -209,6 +209,8 @@
 				msg += "<span class='wet'>[t_He] [t_has] [bicon(glasses)] [glasses.gender==PLURAL?"some":"a"] wet [glasses] covering [t_his] eyes!</span>\n"
 			else
 				msg += "[t_He] [t_has] [bicon(glasses)] \a [glasses] covering [t_his] eyes.\n"
+		else if(HAS_TRAIT(src, TRAIT_MEDICAL_VISOR))
+			msg += "<span class='warning'><B>Something like a medical HUD flickers in [t_his] eyes!</B></span>\n"
 		else if(HAS_TRAIT(src, TRAIT_CULT_EYES))
 			msg += "<span class='warning'><B>[t_His] eyes are glowing an unnatural red!</B></span>\n"
 
