@@ -594,7 +594,7 @@
 
 	if(HAS_TRAIT(user, TRAIT_MEDICAL_VISOR) && (last_picked_item.len >= 1) && (user.Adjacent(src) && (src != user)))
 		var/def_zone = user.get_targetzone()
-		if((def_zone ==  BP_R_ARM || def_zone ==  BP_L_ARM) && (do_after(user, 3 SECOND, target = src)))
+		if((def_zone ==  BP_R_ARM || def_zone ==  BP_L_ARM) && (do_after(user, 30 SECONDS, target = src)))
 			to_chat(user, "<span class='notice'>The last things he touched:</span>")
 			for(var/i in 1 to last_picked_item.len)
 				to_chat(user, "<span class='notice'>[last_picked_item[i]]. </span>")
