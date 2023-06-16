@@ -52,15 +52,16 @@
 #define HUD_LIST_LIST 1
 
 //data HUD (medhud, sechud) defines
-#define DATA_HUD_SECURITY       "data_hud_sec"
-#define DATA_HUD_MEDICAL        "data_hud_med"
-#define DATA_HUD_MEDICAL_ADV    "data_hud_med_adv"
-#define DATA_HUD_DIAGNOSTIC     "data_hud_diag"
-#define DATA_HUD_BROKEN         "data_hud_broken"
-#define DATA_HUD_MINER          "data_hud_miner"
-#define DATA_HUD_GOLEM          "data_hud_golem"
-#define DATA_HUD_EMBRYO         "data_hud_embryo"
-#define DATA_HUD_HOLY           "data_hud_holy"
+#define DATA_HUD_SECURITY        "data_hud_sec"
+#define DATA_HUD_MEDICAL         "data_hud_med"
+#define DATA_HUD_MEDICAL_IMPLANT "data_hud_med_implant"
+#define DATA_HUD_MEDICAL_ADV     "data_hud_med_adv"
+#define DATA_HUD_DIAGNOSTIC      "data_hud_diag"
+#define DATA_HUD_BROKEN          "data_hud_broken"
+#define DATA_HUD_MINER           "data_hud_miner"
+#define DATA_HUD_GOLEM           "data_hud_golem"
+#define DATA_HUD_EMBRYO          "data_hud_embryo"
+#define DATA_HUD_HOLY            "data_hud_holy"
 
 //antag HUD defines
 #define ANTAG_HUD_CULT          "antag_hud_cult"

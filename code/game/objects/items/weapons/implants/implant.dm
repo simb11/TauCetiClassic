@@ -616,3 +616,28 @@ var/global/list/death_alarm_stealth_areas = list(
 	if(world.time > last_examined + 6000)
 		SEND_SIGNAL(imp_in, COMSIG_CLEAR_MOOD_EVENT, "blueshield")
 		SEND_SIGNAL(imp_in, COMSIG_ADD_MOOD_EVENT, "blueshield", /datum/mood_event/blueshield)
+
+/obj/item/weapon/implant/medical_visor
+	name = "medical visor implant"
+	desc = "Allows you to see the creature's health and some other features."
+
+/obj/item/weapon/implant/medical_visor/process()
+	var/datum/atom_hud/med = global.huds[DATA_HUD_MEDICAL_IMPLANT]
+	if(!implanted)
+		qdel(src)
+		return
+	if(!imp_in)
+		qdel(src)
+		return
+	var/mob/M = imp_in
+	if(implanted && !HAS_TRAIT(M, TRAIT_MEDICAL_VISOR))
+		med.add_hud_to(M)
+		ADD_TRAIT(M, TRAIT_MEDICAL_VISOR, IMPLANT_TRAIT)
+		return
+
+/obj/item/weapon/implant/medical_visor/proc/removed()
+	var/mob/living/M = imp_in
+	var/datum/atom_hud/med = global.huds[DATA_HUD_MEDICAL_IMPLANT]
+	REMOVE_TRAIT(M, TRAIT_MEDICAL_VISOR, IMPLANT_TRAIT)
+	med.remove_hud_from(M)
+	qdel(src)

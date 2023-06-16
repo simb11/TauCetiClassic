@@ -6,6 +6,7 @@ var/global/list/all_huds = list()
 var/global/list/huds = list(
 	DATA_HUD_SECURITY = new/datum/atom_hud/data/security,
 	DATA_HUD_MEDICAL = new/datum/atom_hud/data/medical,
+	DATA_HUD_MEDICAL_IMPLANT = new/datum/atom_hud/data/medical/adv/implant,
 	DATA_HUD_MEDICAL_ADV = new/datum/atom_hud/data/medical/adv,
 	DATA_HUD_DIAGNOSTIC = new/datum/atom_hud/data/diagnostic,
 	DATA_HUD_HOLY = new/datum/atom_hud/holy,

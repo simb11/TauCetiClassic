@@ -314,11 +314,17 @@
 /mob/living/carbon/human/put_in_l_hand(obj/item/W)
 	if(!has_bodypart(BP_L_ARM))
 		return FALSE
+	if(last_picked_item.len >= 3)
+		last_picked_item.Cut(1,2)
+	last_picked_item.Add(W)
 	return ..()
 
 /mob/living/carbon/human/put_in_r_hand(obj/item/W)
 	if(!has_bodypart(BP_R_ARM))
 		return FALSE
+	if(last_picked_item.len >= 3)
+		last_picked_item.Cut(1,2)
+	last_picked_item.Add(W)
 	return ..()
 
 //delete all equipment without dropping anything
