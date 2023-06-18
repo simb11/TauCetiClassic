@@ -44,6 +44,17 @@
 	dispersion = 2.5
 	armor_multiplier = 1.25
 
+/obj/item/projectile/bullet/pellet/dust
+	dispersion = 0
+	armor_multiplier = 1
+	muzzle_type = null
+	icon = 'icons/obj/meteor.dmi'
+	icon_state = "space_dust"
+
+/obj/item/projectile/bullet/pellet/dust/atom_init()
+	. = ..()
+	def_zone = pick(TARGET_ZONE_ALL)
+
 /obj/item/projectile/bullet/weakbullet/beanbag		//because beanbags are not bullets
 	name = "beanbag"
 	agony = 95
