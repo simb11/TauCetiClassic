@@ -468,6 +468,8 @@ SUBSYSTEM_DEF(job)
 
 		if(istype(spawn_mark, /obj/effect/landmark/start) && istype(spawn_mark.loc, /turf))
 			H.forceMove(spawn_mark.loc, keep_buckled = TRUE)
+			for(var/obj/machinery/cryopod_orbital/cryo in spawn_mark.loc)
+				cryo.insert(H)
 
 	//give them an account in the station database
 	var/datum/money_account/M = create_random_account_and_store_in_mind(H, job.salary + job.starting_money, job.department_stocks)	//starting funds = salary
