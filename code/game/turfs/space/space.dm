@@ -147,7 +147,7 @@
 			if(!move_to_z)
 				return
 
-			A.z = move_to_z
+			try_move_to_z(A)
 
 			if(src.x <= TRANSITIONEDGE)
 				A.x = world.maxx - TRANSITIONEDGE - 2
@@ -285,3 +285,23 @@
 
 /turf/environment/space/singularity_act()
 	return
+
+/turf/environment/space/proc/try_move_to_z(atom/movable/A)
+	var/datum/space_level/L = SSmapping.get_level(z)
+	var/move_to_z = L.get_next_z()
+	if(ishuman(A))
+		var/mob/living/carbon/human/H = A
+		if(prob(10))
+			H.z = move_to_z
+		else
+			H.freeze_movement = TRUE
+			var/atom/movable/screen/cinematic = new /atom/movable/screen{icon='icons/effects/gateway_entry.dmi'; icon_state="entry"; layer=21; mouse_opacity = MOUSE_OPACITY_TRANSPARENT; screen_loc="1,0"; } (src)
+			if(H.client)
+				H.client.screen += cinematic
+				addtimer(CALLBACK(src, PROC_REF(remove_cinematic), H, cinematic), 5 SECONDS)
+	else
+		A.z = move_to_z
+
+/turf/environment/space/proc/remove_cinematic(mob/living/carbon/human/H, cinematic)
+	H.client.screen -= cinematic
+	qdel(H)
