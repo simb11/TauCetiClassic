@@ -603,6 +603,7 @@ SUBSYSTEM_DEF(ticker)
 		create_spawner(/datum/spawner/mouse)
 	if(config.allow_drone_spawn)
 		create_spawner(/datum/spawner/drone)
+	create_spawners(/datum/spawner/late_party, 0)
 
 /datum/controller/subsystem/ticker/proc/teleport_players_to_eorg_area()
 	if(!config.deathmatch_arena)

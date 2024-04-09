@@ -75,6 +75,7 @@
 #define ANTAG_HUD_ALIEN         "antag_hud_alien"
 #define ANTAG_HUD_DEATHCOM      "antag_hud_deathcom"
 #define ANTAG_HUD_ERT           "antag_hud_ert"
+#define ANTAG_HUD_LATE_PARTY    "antag_hud_late_party"
 #define ANTAG_HUD_MALF          "antag_hud_malf"
 #define ANTAG_HUD_ZOMB          "antag_hud_zomb"
 #define ANTAG_HUD_GANGSTER      "antag_hud_gangster"

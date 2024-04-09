@@ -356,6 +356,13 @@ var/global/list/list/landmarks_list = list() // assoc list of all landmarks crea
 /obj/effect/landmark/heist_spawn
 	name = "Heist"
 
+/obj/effect/landmark/late_party
+	icon = 'icons/effects/landmarks_static.dmi'
+
+/obj/effect/landmark/late_party/communist
+	name = "lp_communist"
+	icon_state = "late_party_commy"
+
 /obj/effect/landmark/latejoin
 	name = "JoinLate"
 

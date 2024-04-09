@@ -29755,6 +29755,10 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pVk" = (
+/obj/effect/landmark/late_party/communist,
+/turf/unsimulated/floor,
+/area/centcom/specops)
 "pWb" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -60005,7 +60009,7 @@ aCV
 aDi
 bpb
 aEc
-aCV
+pVk
 aBQ
 bib
 aBY
