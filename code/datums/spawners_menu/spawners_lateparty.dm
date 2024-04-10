@@ -49,27 +49,26 @@ var/global/datum/late_party/current_late_party
 	..()
 
 /datum/spawner/late_party/spawn_body(mob/dead/spectator)
-	var/list/potential_roles = list()
-	for(var/datum/late_party_member/members_in_list in late_party_type.members)
-		LAZYADD(potential_roles, members_in_list)
-		to_chat(world, "[members_in_list.name]")
-	var/datum/late_party_member/member = pick(potential_roles)
-	//LAZYREMOVE(late_party_type.members, member)
+	var/datum/late_party_member/member = pick(late_party_type.members)
+	LAZYREMOVE(late_party_type.members, member)
+	to_chat(world, "[member.name]")
 
 	var/client/C = spectator.client
 
 	var/datum/faction/F = find_faction_by_type(member.faction)
-	member.holder = new(null)
-	C.create_human_apperance(member.holder)
+	var/mob/living/carbon/human/H = new(null)
+	C.create_human_apperance(H)
 
 	var/turf/T = pick(landmarks_list[member.spawnloc])
-	member.holder.loc = get_turf(T)
-	member.holder.key = C.key
+	H.loc = get_turf(T)
+	H.key = C.key
 
-	create_and_setup_role(member.role, member.holder)
-	add_faction_member(F, member.holder, FALSE, TRUE)
-	member.holder.equipOutfit(member.outfit)
-	to_chat(member.holder, "<B>Вот ты и здесь...</B>")
+	create_and_setup_role(member.role, H)
+	add_faction_member(F, H, FALSE, TRUE)
+	H.equipOutfit(member.outfit)
+	to_chat(H, "<B>Вот ты и здесь...</B>")
+	if(member.fluff_text)
+		to_chat(H, "[member.fluff_text]")
 
 
 /datum/late_party
@@ -83,16 +82,18 @@ var/global/datum/late_party/current_late_party
 	var/name = "Generic Name"
 	var/datum/role/role                               //member role
 	var/datum/faction/faction                         //member faction
-	var/spawnloc                                      //spawn landmark
-	var/mob/living/carbon/human/holder                //spectator new body
+	var/spawnloc                                      //spawn landmark name
 	var/outfit                                        //holder outfit
+	var/fluff_text
 
 ////////////////////////////////Communists!///////////////////////////////////////////////////////////
+
+/datum/late_party/test
 
 /datum/late_party/commy
 	name = "Отряд СССП"
 	members = list(
-	/datum/late_party_member/soviet_soldier
+	/datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
@@ -102,17 +103,18 @@ var/global/datum/late_party/current_late_party
 	///datum/late_party_member/soviet_comissar
 	)
 
-
 /datum/late_party_member/soviet_soldier
 	name = "Красноармеец"
 	role = /datum/role/late_party_member
 	faction = /datum/faction/late_party/communists
 	spawnloc = "lp_communist"
 	outfit = /datum/outfit/responders/ussp
+	fluff_text = "Ты - солдат взвода СССП! Верховное Командование дало твоему вздводу задание - захватить и освободить [station_name_ru] от влияния треклятых капиталистов! Буржуев-глав - к стенке, а их работникам нечего терять, кроме цепей!"
 
-///datum/late_party_member/soviet_comissar
-//	name = "Коммисар СССП"
-//	role =
-//	faction =
-//	spawnloc =
-//	outfit = /datum/outfit/responders/ussp/leader
+/datum/late_party_member/soviet_commisar
+    name = "Коммисар"
+    role = /datum/role/late_party_member/communist/comissar
+    faction = /datum/faction/late_party/communists
+    spawnloc = "lp_comissar"
+    outfit = /datum/outfit/responders/ussp/leader
+    fluff_text = "Ты - <B>комиссар</B> взвода СССП! Верховное Командование дало твоему вздводу задание - захватить и освободить [station_name_ru] от влияния треклятых капиталистов! Буржуев-глав - к стенке, а их работникам нечего терять, кроме цепей!"

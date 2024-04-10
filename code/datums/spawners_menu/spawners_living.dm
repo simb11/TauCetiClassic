@@ -157,6 +157,7 @@
 	desc = "Вы станете Возвышенным - ментором и неформальным лидером всего культа."
 	ranks = list(ROLE_CULTIST, ROLE_GHOSTLY)
 
+
 /datum/spawner/living/mimic
 	name = "Оживлённый предмет"
 	desc = "Вы магическим образом ожили на станции"

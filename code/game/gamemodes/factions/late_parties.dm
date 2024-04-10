@@ -5,8 +5,15 @@
 
 	initroletype = /datum/role/late_party_member
 
+	var/objective = /datum/objective
+
+/datum/faction/late_party/New()
+	..()
+	AppendObjective(objective)
+
 /datum/faction/late_party/communists
 	name = F_LP_COMMUNISTS
 	ID = F_LP_COMMUNISTS
 	logo_state = "soviet"
-
+	initroletype = /datum/role/late_party_member/communist
+	objective = /datum/objective/target/assassinate_heads

@@ -363,6 +363,12 @@ var/global/list/list/landmarks_list = list() // assoc list of all landmarks crea
 	name = "lp_communist"
 	icon_state = "late_party_commy"
 
+/obj/effect/landmark/late_party/comissar
+	name = "lp_comissar"
+	icon_state = "late_party_comissar"
+
+/obj/effect/landmark/late_party/comissar
+
 /obj/effect/landmark/latejoin
 	name = "JoinLate"
 

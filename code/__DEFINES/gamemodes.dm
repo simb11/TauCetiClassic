@@ -46,6 +46,7 @@
 #define GANGSTER_DEALER "Gangster Dealer"
 #define HEADREV "Head Revolutionary"
 #define LATE_PARTY_MEMBER "Late Party Member"
+#define LATE_PARTY_MEMBER_COMMUNIST "Communist"
 #define MALF "Malf AI"
 #define MALFBOT "Malf-Slaved Cyborg"
 #define NUKE_OP "Nuclear Operative"
