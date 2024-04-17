@@ -55,18 +55,20 @@ var/global/datum/late_party/current_late_party
 
 	var/client/C = spectator.client
 
-	var/datum/faction/F = find_faction_by_type(member.faction)
+	var/datum/faction/F = create_uniq_faction(member.faction)
 	var/mob/living/carbon/human/H = new(null)
-	C.create_human_apperance(H)
+
+	if(member.appearance_customization)
+		C.create_human_apperance(H)
+	else
+		member.set_appearance(H)
 
 	var/turf/T = pick(landmarks_list[member.spawnloc])
 	H.loc = get_turf(T)
 	H.key = C.key
 
-	create_and_setup_role(member.role, H)
 	add_faction_member(F, H, FALSE, TRUE)
 	H.equipOutfit(member.outfit)
-	to_chat(H, "<B>Вот ты и здесь...</B>")
 	if(member.fluff_text)
 		to_chat(H, "[member.fluff_text]")
 
@@ -75,46 +77,92 @@ var/global/datum/late_party/current_late_party
 	var/name
 	var/list/datum/late_party_member/members = list() //members of lateparty (/datum/late_party_member)
 
-/datum/late_party/proc/post_spawn()                   //for announcements and events after the party appears.
-	return
-
 /datum/late_party_member
 	var/name = "Generic Name"
-	var/datum/role/role                               //member role
 	var/datum/faction/faction                         //member faction
 	var/spawnloc                                      //spawn landmark name
 	var/outfit                                        //holder outfit
 	var/fluff_text
+	var/appearance_customization = TRUE               //if FALSE use set_appearance
+
+/datum/late_party_member/proc/set_appearance(mob/living/carbon/human/H)
+	return TRUE
 
 ////////////////////////////////Communists!///////////////////////////////////////////////////////////
-
-/datum/late_party/test
 
 /datum/late_party/commy
 	name = "Отряд СССП"
 	members = list(
-	/datum/late_party_member/soviet_soldier,
+	/datum/late_party_member/soviet_soldier
 	///datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
 	///datum/late_party_member/soviet_soldier,
-	///datum/late_party_member/soviet_comissar
+	///datum/late_party_member/soviet_commissar
 	)
 
 /datum/late_party_member/soviet_soldier
 	name = "Красноармеец"
-	role = /datum/role/late_party_member
 	faction = /datum/faction/late_party/communists
 	spawnloc = "lp_communist"
 	outfit = /datum/outfit/responders/ussp
-	fluff_text = "Ты - солдат взвода СССП! Верховное Командование дало твоему вздводу задание - захватить и освободить [station_name_ru] от влияния треклятых капиталистов! Буржуев-глав - к стенке, а их работникам нечего терять, кроме цепей!"
+	fluff_text = "Ты - солдат взвода СССП! Верховное Командование дало твоему взводу задание - захватить и освободить одну из станций от влияния треклятых капиталистов! Буржуев-глав - к стенке, а их работникам нечего терять, кроме цепей!"
 
-/datum/late_party_member/soviet_commisar
-    name = "Коммисар"
-    role = /datum/role/late_party_member/communist/comissar
-    faction = /datum/faction/late_party/communists
-    spawnloc = "lp_comissar"
-    outfit = /datum/outfit/responders/ussp/leader
-    fluff_text = "Ты - <B>комиссар</B> взвода СССП! Верховное Командование дало твоему вздводу задание - захватить и освободить [station_name_ru] от влияния треклятых капиталистов! Буржуев-глав - к стенке, а их работникам нечего терять, кроме цепей!"
+/datum/late_party_member/soviet_commissar
+	name = "Коммисар"
+	faction = /datum/faction/late_party/communists
+	spawnloc = "lp_comissar"
+	outfit = /datum/outfit/responders/ussp/leader
+	fluff_text = "Ты - <B>комиссар</B> взвода СССП! Верховное Командование дало твоему взводу задание - захватить и освободить одну из станций от влияния треклятых капиталистов! Буржуев-глав - к стенке, а их работникам нечего терять, кроме цепей!"
+
+
+////////////////////////////////Voxs!///////////////////////////////////////////////////////////
+
+/datum/late_party/vox
+	name = "Воксы-налётчики"
+	members = list(
+	/datum/late_party_member/vox
+	///datum/late_party_member/vox,
+	///datum/late_party_member/vox,
+	///datum/late_party_member/vox,
+	///datum/late_party_member/vox,
+	///datum/late_party_member/vox,
+	///datum/late_party_member/vox,
+	///datum/late_party_member/vox,
+	)
+
+/datum/late_party_member/vox
+	name = "Вокс-налётчик"
+	faction = /datum/faction/heist
+	spawnloc = "Heist"
+	outfit = /datum/outfit //see H.equip_vox_raider()
+	appearance_customization = FALSE
+
+/datum/late_party_member/vox/set_appearance(mob/living/carbon/human/H)
+	H.set_species(VOX)
+
+	var/sounds = rand(2, 8)
+	var/newname = ""
+	for(var/i in 1 to sounds)
+		newname += pick(list("ti","hi","ki","ya","ta","ha","ka","ya","chi","cha","kah"))
+	H.real_name = capitalize(newname)
+	H.name = H.real_name
+
+	H.age = rand(5, 15) // its fucking lore
+	H.add_language(LANGUAGE_VOXPIDGIN)
+	var/datum/faction/heist/heist = find_faction_by_type(/datum/faction/heist)
+	if(heist.members.len % 2 == 0 || prob(33)) // first vox always gets Sol, everyone else by random.
+		H.add_language(LANGUAGE_SOLCOMMON)
+
+	H.h_style = "Short Vox Quills"
+	H.f_style = "Shaved"
+	H.grad_style = "none"
+
+	//Now apply cortical stack.
+	var/obj/item/weapon/implant/cortical/I = new(H)
+	I.inject(H, BP_HEAD)
+
+	H.equip_vox_raider()
+	H.regenerate_icons()
