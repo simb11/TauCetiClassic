@@ -33,7 +33,7 @@
 
 /datum/spawner/late_party
 	name = "Поздняя Группа"
-	desc = "."
+	desc = "Вернитесь на станцию в качестве члена одной из поздних групп, например - пиратов или дезертиров!"
 	ranks = list(ROLE_GHOSTLY)
 	priority = 99
 
@@ -43,11 +43,21 @@
 	var/list/datum/late_party/possible_parties = list()
 
 /datum/spawner/late_party/New()
-	late_party_type = /datum/late_party/pirates
+	late_party_type = pick(global.possible_late_parties)
 	time_for_registration = rand(30 MINUTES, 45 MINUTES)
 	positions = late_party_type.members.len
 	..()
 
+
+/datum/spawner/late_party/registration(mob/dead/spectator)
+	if(!istype(spectator, /mob/dead/observer))
+		to_chat(spectator, "<span class='danger'><B>Стать членом поздней группы может только умерший!</B></span>")
+		return
+	var/mob/dead/observer/ghost = spectator
+	if(!ghost.can_reenter_corpse)
+		to_chat(ghost, "<span class='danger'><B>Стать членом поздней группы может только умерший!</B></span>")
+		return
+	..()
 
 /datum/spawner/late_party/roll_registrations()
 	if(registered_candidates.len < late_party_type.members.len)
@@ -64,7 +74,6 @@
 	LAZYREMOVE(late_party_type.members, member)
 
 	var/client/C = spectator.client
-
 
 	var/datum/faction/F = create_uniq_faction(member.faction)
 	var/mob/living/carbon/human/H = new(null)
@@ -193,6 +202,8 @@
 
 	H.equip_vox_raider()
 	H.regenerate_icons()
+
+
 
 
 //Pirates!
