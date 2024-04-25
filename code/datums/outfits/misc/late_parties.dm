@@ -348,6 +348,7 @@
 	/obj/item/weapon/shield/riot/tele = 1
 	)
 
+
 /datum/outfit/late_party/assassin
 	name = "Late Party: Assassin"
 

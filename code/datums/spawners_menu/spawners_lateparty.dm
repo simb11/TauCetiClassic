@@ -296,6 +296,7 @@
 /datum/late_party_member/military_police_lieutenant/New()
 	fluff_text = "<span class='notice'>Ты - <B>лидер</B> отряда военной полиции. Задача отряда - <B>ликвидировать дезертиров-предателей на [station_name_ru()]</B>. Будучи лейтенантом корпуса военной полиции НТ, ты подчиняешься только ЦК, экипаж [station_name_ru()] не обязан исполнять твои приказы</span>."
 
+
 //inspection
 /datum/late_party/inspection
 	name = "Инспекция"

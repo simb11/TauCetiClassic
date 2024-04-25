@@ -13,7 +13,6 @@
 	faction = /datum/faction/responders/gorlex
 	fixed_objective = /datum/objective/nuclear
 
-
 /datum/response_team/deathsquad
 	name = "Death Esquadron"
 	spawner = /datum/spawner/responders/deathsquad

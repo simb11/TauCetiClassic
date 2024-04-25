@@ -19,7 +19,6 @@
 	var/naming_allowed = TRUE
 	var/faction_type = /datum/faction/responders
 
-
 /datum/spawner/responders/New(mission)
 	..()
 	important_info += mission

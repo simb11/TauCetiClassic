@@ -8,7 +8,6 @@
 	// Indicates that the first member of ERT will be the leader
 	var/leader_selected = FALSE
 
-
 /datum/faction/responders/nt_ert
 
 /datum/faction/responders/deathsquad
