@@ -367,7 +367,30 @@ var/global/list/list/landmarks_list = list() // assoc list of all landmarks crea
 	name = "lp_comissar"
 	icon_state = "late_party_comissar"
 
-/obj/effect/landmark/late_party/comissar
+/obj/effect/landmark/late_party/pirate
+	name = "lp_pirate"
+	icon_state = "late_party_pirate"
+
+/obj/effect/landmark/late_party/pirate_captain
+	name = "lp_pirate_captain"
+	icon_state = "late_party_pirate_captain"
+
+/obj/effect/landmark/late_party/prisoner
+	name = "lp_prisoner"
+	icon_state = "late_party_prisoner"
+
+/obj/effect/landmark/late_party/deserter
+	name = "lp_deserter"
+	icon_state = "late_party_deserter"
+
+/obj/effect/landmark/late_party/military_police
+	name = "lp_mp"
+	icon_state = "late_party_military_police"
+
+/obj/effect/landmark/late_party/assassin
+	name = "lp_assassin"
+	icon_state = "late_party_assassin"
+
 
 /obj/effect/landmark/latejoin
 	name = "JoinLate"

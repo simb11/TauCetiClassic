@@ -8,11 +8,16 @@
 	desc = "Небольшой, бесшумный, легко скрываемый пистолет. Использует патроны 45-го калибра."
 	icon_state = "silenced_pistol"
 	item_state = "gun"
-	silenced = 1
+	silenced = TRUE
 	origin_tech = "combat=2;materials=2;syndicate=8"
 	initial_mag = /obj/item/ammo_box/magazine/silenced_pistol
 	suitable_mags = list(/obj/item/ammo_box/magazine/silenced_pistol, /obj/item/ammo_box/magazine/silenced_pistol/nonlethal)
 	fire_sound = 'sound/weapons/guns/gunshot_silencer.ogg'
+
+/obj/item/weapon/gun/projectile/automatic/pistol/silenced/nonlethal
+	name = "silenced pistol NL"
+	icon_state = "silenced_pistol_nl"
+	initial_mag = /obj/item/ammo_box/magazine/silenced_pistol/nonlethal
 
 /obj/item/weapon/gun/projectile/automatic/pistol/glock
 	name = "G17"
@@ -117,3 +122,17 @@
 	fire_sound = 'sound/weapons/guns/gunshot_light.ogg'
 	can_be_holstered = TRUE
 	recoil = 1.5
+
+/obj/item/weapon/gun/projectile/automatic/pistol/supb
+	name = "SUP-B-Pistol"
+	cases = list("пистолет с глушителем", "пистолета с глушителем", "пистолету с глушителем", "пистолет с глушителем", "пистолетом с глушителем", "пистолету с глушителем")
+	desc = "Небольшой, скорострельный и надёжный пистолет калибра .22 lr с интегрированным глушителем."
+	icon_state = "supb"
+	item_state = "supb"
+	w_class = SIZE_TINY
+	origin_tech = "combat=1;materials=1;syndicate=2"
+	initial_mag = /obj/item/ammo_box/magazine/supb
+	suitable_mags = list(/obj/item/ammo_box/magazine/supb)
+	silenced = TRUE
+	fire_sound = 'sound/weapons/guns/gunshot_silencer.ogg'
+	fire_delay = 2

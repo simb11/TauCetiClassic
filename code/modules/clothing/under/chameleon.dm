@@ -6,7 +6,7 @@
 //starts off as black
 	name = "black jumpsuit"
 	icon_state = "black"
-	item_state = "bl_suit"
+	item_state = "black"
 	desc = "It's a plain jumpsuit. It seems to have a small dial on the wrist."
 	origin_tech = "syndicate=3"
 	var/list/clothing_choices = list()

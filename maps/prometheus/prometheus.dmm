@@ -6216,6 +6216,10 @@
 	icon_state = "wooden-2"
 	},
 /area/station/civilian/gym)
+"aUp" = (
+/obj/effect/landmark/late_party/deserter,
+/turf/environment/space,
+/area/space)
 "aUr" = (
 /obj/structure/closet/cabinet{
 	name = "Theatre Closet"
@@ -43106,6 +43110,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/maintenance/dormitory)
+"jRs" = (
+/obj/structure/lattice,
+/obj/effect/landmark/late_party/deserter,
+/turf/environment/space,
+/area/space)
 "jRu" = (
 /obj/structure/sign/departments/science,
 /turf/simulated/wall/r_wall,
@@ -80773,6 +80782,10 @@
 	icon_state = "darkyellow"
 	},
 /area/station/ai_monitored/eva)
+"tlM" = (
+/obj/effect/landmark/late_party/prisoner,
+/turf/environment/space,
+/area/space)
 "tlU" = (
 /obj/effect/decal/turf_decal{
 	dir = 1;
@@ -126605,8 +126618,8 @@ iRy
 iRy
 iRy
 iRy
-iRy
-iRy
+tlM
+tlM
 iRy
 iRy
 iRy
@@ -126862,8 +126875,8 @@ iRy
 iRy
 iRy
 iRy
-iRy
-iRy
+tlM
+tlM
 iRy
 iRy
 iRy
@@ -127119,8 +127132,8 @@ iRy
 iRy
 iRy
 iRy
-iRy
-iRy
+tlM
+tlM
 iRy
 iRy
 iRy
@@ -127377,7 +127390,7 @@ iRy
 iRy
 iRy
 iRy
-iRy
+tlM
 iRy
 iRy
 iRy
@@ -150125,9 +150138,9 @@ cJy
 cJy
 cJy
 cJy
-iRy
-iRy
-cJy
+aUp
+aUp
+jRs
 cJy
 cJy
 iRy

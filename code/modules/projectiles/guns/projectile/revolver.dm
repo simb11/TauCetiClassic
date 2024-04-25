@@ -259,3 +259,11 @@
 	desc = "A powerful revolver, very popular among mercenaries and pirates. Uses .357 ammo."
 	icon_state = "synd_revolver"
 	initial_mag = /obj/item/ammo_box/magazine/internal/cylinder
+
+/obj/item/weapon/gun/projectile/revolver/heavy
+	name = "Magnum .44"
+	cases = list("Магнум .44", "Магнума .44", "Магнума .44", "Магнум .44", "Магнумом .44", "Магнума .44")
+	desc = "\"Я знаю, о чём ты сейчас думаешь. Выстрелил он шесть раз, или только пять? Честно говоря, в этой суматохе я и сам сбился со счёта. Но начнём с того, что это «Магнум» 44-го калибра, самый убойный револьвер на галактике, и он может подчистую снести тебе башку. Теперь ты должен задать себе один вопрос: «Повезёт ли мне?». Ну, повезёт ли, подонок?\""
+	icon_state = "heavy_revolver"
+	initial_mag = /obj/item/ammo_box/magazine/internal/cylinder/heavy_rev
+	fire_sound = 'sound/weapons/guns/gunshot_magnum44.ogg'

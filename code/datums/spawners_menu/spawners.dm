@@ -568,52 +568,6 @@
 		to_chat(H, "<B>Сегодня очередной рабочий день. Ничего из ряда вон выходящего произойти не должно, так что можно расслабиться.</B>")
 	to_chat(H, "<B>Вы ни в коем случае не должны покидать свой пост! Невыполнение своих задач приведёт к увольнению.</B>")
 
-/datum/spawner/vox
-	name = "Вокс-Налётчик"
-	desc = "Воксы-налётчики это представители расы Воксов, птице-подобных гуманоидов, дышащих азотом. Прибыли на станцию что бы украсть что-нибудь ценное."
-	wiki_ref = "Vox_Raider"
-
-	ranks = list(ROLE_RAIDER, ROLE_GHOSTLY)
-
-	register_only = TRUE
-	time_for_registration = 0.5 MINUTES
-
-	time_while_available = 5 MINUTES
-
-	spawn_landmark_name = "Heist"
-
-/datum/spawner/vox/spawn_body(mob/dead/spectator)
-	var/spawnloc = pick_spawn_location()
-
-	var/datum/faction/heist/faction = create_uniq_faction(/datum/faction/heist)
-	var/mob/living/carbon/human/vox/event/vox = new(spawnloc)
-
-	vox.key = spectator.client.key
-
-	var/sounds = rand(2, 8)
-	var/newname = ""
-	for(var/i in 1 to sounds)
-		newname += pick(list("ti","hi","ki","ya","ta","ha","ka","ya","chi","cha","kah"))
-
-	vox.real_name = capitalize(newname)
-	vox.name = vox.real_name
-	vox.age = rand(5, 15) // its fucking lore
-	vox.add_language(LANGUAGE_VOXPIDGIN)
-	if(faction.members.len % 2 == 0 || prob(33)) // first vox always gets Sol, everyone else by random.
-		vox.add_language(LANGUAGE_SOLCOMMON)
-	vox.h_style = "Short Vox Quills"
-	vox.f_style = "Shaved"
-	vox.grad_style = "none"
-
-	//Now apply cortical stack.
-	var/obj/item/weapon/implant/cortical/I = new(vox)
-	I.inject(vox, BP_HEAD)
-
-	vox.equip_vox_raider()
-	vox.regenerate_icons()
-
-	add_faction_member(faction, vox)
-
 /datum/spawner/abductor
 	name = "Похититель"
 	desc = "Технологически развитое сообщество пришельцев, которые занимаются каталогизированием других существ в Галактике. К сожалению для этих существ, методы похитителей, мягко выражаясь, агрессивны."

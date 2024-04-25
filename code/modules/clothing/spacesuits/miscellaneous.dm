@@ -103,3 +103,25 @@
 	icon_state = "clowan"
 	item_state = "clowan"
 	allowed = list(/obj/item/weapon/tank)
+
+//Deserters outfit
+/obj/item/clothing/head/helmet/space/surplus
+	name = "surplus military space helmet"
+	cases = list("шлем военного скафандра", "шлема военного скафандра", "шлему военного скафандра", "шлем военного скафандра", "шлемом военного скафандра", "шлему военного скафандра")
+	desc = "Шлем военного скафандра старого образца."
+	icon_state = "surpluse-space-helm"
+	armor = list(melee = 60, bullet = 50, laser = 15,energy = 15, bomb = 50, bio = 100, rad = 5)
+	species_restricted = list("exclude" , UNATHI , TAJARAN , SKRELL , DIONA , VOX)
+	siemens_coefficient = 0.4
+
+/obj/item/clothing/suit/space/surplus
+	name = "surplus military space suit"
+	cases = list("военный скафандр", "военного скафандра", "военному скафандру", "военный скафандр", "военным скафандром", "военному скафандру")
+	desc = "Ещё с двадцать лет назад это была передовая броня для ведения боя в космосе. Сейчас этот скафандр выдают разве что призывникам или провинившимся военнослужащим."
+	icon_state = "surpluse-space-suit"
+	allowed = list(/obj/item/weapon/gun,/obj/item/device/flashlight,/obj/item/weapon/tank,/obj/item/device/suit_cooling_unit,/obj/item/weapon/melee/baton)
+	armor = list(melee = 60, bullet = 50, laser = 15,energy = 15, bomb = 50, bio = 100, rad = 5)
+	slowdown = 0.3
+	species_restricted = list("exclude" , UNATHI , TAJARAN , SKRELL , DIONA , VOX)
+	siemens_coefficient = 0.4
+	breach_threshold = 26

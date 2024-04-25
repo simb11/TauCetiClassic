@@ -197,9 +197,13 @@
 	..()
 	if(src in view(1, user))
 		var/datum/faction/responders/pirates/P = find_faction_by_type(/datum/faction/responders/pirates)
-		if(!P)
+		var/datum/faction/late_party/pirate/L = find_faction_by_type(/datum/faction/late_party/pirate)
+		if((!isnull(P) && !P) || (!isnull(L) && !L))
 			return
-		to_chat(user, "Plundered treasure: [P.booty] doubloons!")
+		if(P)
+			to_chat(user, "Plundered treasure: [P.booty] doubloons!")
+		if(L)
+			to_chat(user, "Plundered treasure: [L.booty] doubloons!")
 
 /obj/item/weapon/extraction_pack/pirates/can_use_to(atom/movable/target)
 	if(!..())
@@ -218,7 +222,8 @@
 /obj/item/weapon/extraction_pack/pirates/proc/sell(atom/movable/target_type, mob/user)
 	sleep(10 SECONDS) // signals are called async
 	var/datum/faction/responders/pirates/P = find_faction_by_type(/datum/faction/responders/pirates)
-	if(!P)
+	var/datum/faction/late_party/pirate/L = find_faction_by_type(/datum/faction/late_party/pirate)
+	if((!isnull(P) && !P) || (!isnull(L) && !L))
 		return
 
 	var/obj/O = target_type
@@ -226,4 +231,5 @@
 		return
 
 	P.booty += initial(O.price)
+	L.booty += initial(O.price)
 	to_chat(user, "Plundered [initial(O.price)] doubloons!")

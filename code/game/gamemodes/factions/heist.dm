@@ -5,7 +5,7 @@
 
 	initroletype = /datum/role/vox_raider
 
-	max_roles = 6
+	max_roles = 8
 
 	logo_state = "raider-logo"
 
@@ -42,10 +42,6 @@
 	//-All- vox raids have these two (one) objectives. Failing them loses the game.
 	AppendObjective(/datum/objective/heist/inviolate_crew)
 	AppendObjective(/datum/objective/heist/inviolate_death)
-
-/datum/faction/heist/OnPostSetup()
-	. = ..()
-	create_spawners(/datum/spawner/vox, max_roles)
 
 /datum/faction/heist/GetScoreboard()
 	var/list/objectives = objective_holder.GetObjectives()

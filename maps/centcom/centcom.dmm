@@ -13565,6 +13565,12 @@
 	},
 /turf/simulated/shuttle/floor/erokez,
 /area/shuttle/transport1/centcom)
+"aEx" = (
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "aEz" = (
 /turf/unsimulated/wall,
 /area/centcom)
@@ -20877,6 +20883,11 @@
 	icon_state = "floorcatwalk"
 	},
 /area/shuttle/vox/arkship)
+"aZV" = (
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floordown"
+	},
+/area/custom/pirates_base)
 "bab" = (
 /turf/unsimulated/floor{
 	dir = 8;
@@ -21748,6 +21759,15 @@
 	},
 /turf/unsimulated/floor/abductor,
 /area/custom/abductor_ship)
+"bdG" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "bdN" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/unsimulated/floor{
@@ -22276,6 +22296,10 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"bhu" = (
+/obj/machinery/light,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "bib" = (
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -22358,6 +22382,11 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/specops)
+"bpH" = (
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "bqb" = (
 /obj/structure/table/woodentable{
 	dir = 5
@@ -22430,6 +22459,14 @@
 /obj/structure/cult/pylon,
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"bsG" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/weapon/pen/red,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "btb" = (
 /obj/structure/table/woodentable{
 	dir = 5
@@ -22558,6 +22595,21 @@
 	icon_state = "vaultfull"
 	},
 /area/centcom/specops)
+"bBL" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/window/thin/reinforced,
+/obj/item/weapon/storage/box/emps,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "bCb" = (
 /obj/structure/stool/bed/chair/metal/black{
 	dir = 1
@@ -22607,6 +22659,20 @@
 	icon_state = "whiteblue"
 	},
 /area/centcom/specops)
+"bGn" = (
+/obj/item/weapon/rack_parts,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced,
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "bHb" = (
 /obj/structure/stool/bed,
 /obj/item/weapon/bedsheet/syndie,
@@ -22697,6 +22763,12 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"bMC" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "bNb" = (
 /obj/machinery/door/airlock/external{
 	dir = 4;
@@ -22752,6 +22824,14 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"bQK" = (
+/obj/machinery/door/poddoor/shutters/syndi{
+	name = "Exit"
+	},
+/turf/simulated/floor{
+	icon_state = "blackchoco"
+	},
+/area/centcom)
 "bRb" = (
 /obj/machinery/door/airlock/external{
 	dir = 4;
@@ -22947,6 +23027,20 @@
 	icon_state = "dark"
 	},
 /area/centcom)
+"cfz" = (
+/obj/structure/bookcase,
+/obj/item/weapon/book/manual/wiki/possible_threats,
+/obj/item/weapon/book/manual/detective,
+/obj/item/weapon/book/manual/wiki/engineering_hacking,
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "blackcorner"
+	},
+/area/centcom)
+"cfK" = (
+/obj/machinery/door/airlock/centcom,
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "cgb" = (
 /turf/unsimulated/floor{
 	icon_state = "brown"
@@ -23018,6 +23112,12 @@
 	icon_state = "vaultfull"
 	},
 /area/velocity)
+"clp" = (
+/obj/machinery/door/airlock/centcom,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "cmb" = (
 /obj/item/weapon/flora/random,
 /obj/machinery/door_control{
@@ -23037,6 +23137,12 @@
 	icon_state = "vaultfull"
 	},
 /area/velocity)
+"cnP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "cob" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	icon_state = "bot"
@@ -23165,6 +23271,10 @@
 	icon_state = "vaultfull"
 	},
 /area/velocity)
+"cyY" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "czb" = (
 /obj/machinery/door_control{
 	id = "velocity_room02";
@@ -23220,12 +23330,20 @@
 /obj/structure/disposalpipe/segment,
 /turf/unsimulated/floor/carpet,
 /area/velocity)
+"cEl" = (
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "cEu" = (
 /obj/item/weapon/razor,
 /obj/item/weapon/reagent_containers/syringe,
 /obj/structure/table/woodentable/fancy/black,
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"cEO" = (
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorup"
+	},
+/area/custom/pirates_base)
 "cGb" = (
 /turf/unsimulated/floor{
 	icon_state = "hydrofloor"
@@ -23333,6 +23451,12 @@
 "cOr" = (
 /turf/environment/space,
 /area/shuttle/escape_pod5/centcom)
+"cOx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "cPb" = (
 /obj/structure/dryer{
 	dir = 8;
@@ -23557,6 +23681,9 @@
 	icon_state = "dark"
 	},
 /area/velocity)
+"dgi" = (
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
 "dhb" = (
 /obj/machinery/door/poddoor{
 	density = 0;
@@ -23704,6 +23831,14 @@
 /obj/machinery/door/poddoor,
 /turf/unsimulated/wall,
 /area/velocity)
+"dqN" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/centcom)
 "drb" = (
 /obj/machinery/door/poddoor{
 	density = 0;
@@ -23833,6 +23968,14 @@
 /obj/item/weapon/book/manual/wiki/cult,
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"dAC" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/cobweb,
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/civilian,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "dBb" = (
 /obj/structure/sign/directions/velocity{
 	icon_state = "tablo02"
@@ -23926,6 +24069,10 @@
 	},
 /turf/environment/space,
 /area/velocity/monorailwagon)
+"dKE" = (
+/obj/effect/decal/mecha_wreckage/durand/vindicator,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "dLb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -23978,6 +24125,10 @@
 	icon_state = "floor2"
 	},
 /area/velocity/monorailwagon)
+"dPt" = (
+/obj/effect/decal/mecha_wreckage/ripley/deathripley,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "dQb" = (
 /obj/machinery/door/poddoor{
 	density = 0;
@@ -24105,6 +24256,21 @@
 /obj/structure/grille,
 /turf/simulated/shuttle/plating,
 /area/velocity/monorailwagon)
+"dXz" = (
+/obj/structure/rack,
+/obj/item/weapon/kitchenknife/combat{
+	pixel_y = 6
+	},
+/obj/item/weapon/kitchenknife/combat{
+	pixel_y = 2
+	},
+/obj/item/weapon/kitchenknife/combat{
+	pixel_y = -2
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "dYb" = (
 /obj/machinery/door/poddoor{
 	density = 0;
@@ -24152,6 +24318,12 @@
 	icon_state = "floor2"
 	},
 /area/velocity/monorailwagon)
+"eba" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "ebb" = (
 /obj/structure/sign/monorail_map,
 /obj/structure/object_wall/standart{
@@ -24207,6 +24379,14 @@
 	icon_state = "bcircuit"
 	},
 /area/custom/syndicate_mothership/control)
+"egu" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "ehb" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "velocity_9"
@@ -24266,6 +24446,17 @@
 	icon_state = "plating"
 	},
 /area/velocity)
+"elV" = (
+/obj/structure/table/glass,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/weapon/reagent_containers/food/snacks/sliceable/pizza/margherita,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "black"
+	},
+/area/centcom)
 "emb" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "velocity_8"
@@ -24289,6 +24480,20 @@
 	},
 /turf/environment/space,
 /area/velocity/monorailwagon)
+"epK" = (
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced,
+/obj/structure/rack,
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "erb" = (
 /obj/structure/sign/mark{
 	icon_state = "b4"
@@ -24311,6 +24516,15 @@
 "etL" = (
 /obj/structure/sign/poster/contraband/communist_state{
 	pixel_y = -31
+	},
+/obj/structure/rack,
+/obj/item/weapon/kitchenknife/combat{
+	pixel_y = -2;
+	pixel_x = -4
+	},
+/obj/item/weapon/storage/box/syndie_kit/posters{
+	pixel_y = -4;
+	pixel_x = 7
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
@@ -24551,6 +24765,12 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/evac)
+"eNV" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkstairs_middle"
+	},
+/area/custom/pirates_base)
 "ePb" = (
 /obj/machinery/door/airlock/centcom{
 	dir = 4;
@@ -24605,6 +24825,14 @@
 	},
 /turf/environment/space,
 /area/shuttle/officer/velocity)
+"eUI" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd3,3"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "eVb" = (
 /obj/structure/object_wall/velocity{
 	dir = 8;
@@ -24706,6 +24934,14 @@
 	icon_state = "barber"
 	},
 /area/velocity)
+"feY" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd1,2"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "ffb" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	dir = 1;
@@ -24844,6 +25080,24 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"frT" = (
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/item/clothing/suit/space/globose/black/pirate,
+/obj/item/clothing/mask/gas/coloured,
+/obj/item/clothing/head/helmet/space/globose/black/pirate,
+/obj/machinery/door/window/brigdoor{
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "fsb" = (
 /obj/machinery/door/airlock/centcom{
 	dir = 4;
@@ -24957,6 +25211,20 @@
 	},
 /turf/unsimulated/wall,
 /area/velocity)
+"fEN" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/toolbox/syndicate{
+	pixel_y = 8
+	},
+/obj/item/weapon/storage/toolbox/syndicate{
+	pixel_y = 4
+	},
+/obj/item/weapon/storage/toolbox/syndicate,
+/turf/simulated/floor{
+	dir = 10;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "fFb" = (
 /obj/structure/sign/tablo{
 	icon_state = "parking"
@@ -25276,6 +25544,14 @@
 	icon_state = "vaultfull"
 	},
 /area/centcom/specops)
+"ggz" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd2,1"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "ghb" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/gun/energy,
@@ -25402,12 +25678,41 @@
 	icon_state = "yellow"
 	},
 /area/centcom/specops)
+"gqC" = (
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "grb" = (
 /turf/unsimulated/floor{
 	dir = 4;
 	icon_state = "yellow"
 	},
 /area/centcom/specops)
+"grI" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/globose/black/pirate,
+/obj/item/clothing/mask/gas/coloured,
+/obj/item/clothing/head/helmet/space/globose/black/pirate,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"grW" = (
+/obj/structure/sign/warning/securearea{
+	pixel_y = 32
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkredcorners"
+	},
+/area/centcom)
 "gsb" = (
 /turf/unsimulated/floor{
 	dir = 4;
@@ -25839,6 +26144,14 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"hdx" = (
+/obj/machinery/door/airlock/centcom{
+	dir = 4;
+	name = "Restroom";
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "heb" = (
 /obj/machinery/light{
 	dir = 8
@@ -25994,12 +26307,22 @@
 	icon_state = "engine"
 	},
 /area/velocity)
+"hqc" = (
+/obj/structure/window/fulltile/reinforced/indestructible,
+/turf/simulated/floor/plating,
+/area/centcom)
 "hrb" = (
 /obj/structure/object_wall/standart{
 	icon_state = "swall_f5"
 	},
 /turf/simulated/shuttle/plating,
 /area/velocity/monorailwagon)
+"hrM" = (
+/obj/structure/droppod/Legitimate,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "hsb" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 1;
@@ -26052,6 +26375,18 @@
 	},
 /turf/environment/space,
 /area/shuttle/administration/centcom)
+"hvQ" = (
+/obj/structure/sign/poster/contraband/red_rum{
+	pixel_x = 32
+	},
+/obj/structure/closet/cabinet,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "hwb" = (
 /obj/structure/closet/emcloset,
 /obj/machinery/light{
@@ -26075,6 +26410,12 @@
 	icon_state = "blue"
 	},
 /area/centcom/evac)
+"hxJ" = (
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "hyb" = (
 /turf/unsimulated/floor{
 	icon_state = "blue"
@@ -26125,6 +26466,16 @@
 	},
 /turf/environment/space,
 /area/centcom/evac)
+"hEg" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/box/smokegrenades{
+	pixel_y = 5
+	},
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "hFb" = (
 /obj/structure/object_wall/standart{
 	icon_state = "swall11"
@@ -26183,6 +26534,15 @@
 	icon_state = "floor2"
 	},
 /area/centcom/evac)
+"hMa" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "hMb" = (
 /obj/structure/object_wall/standart{
 	icon_state = "swall3"
@@ -26205,6 +26565,15 @@
 	icon_state = "blue"
 	},
 /area/centcom/evac)
+"hOy" = (
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "hPb" = (
 /turf/unsimulated/floor{
 	dir = 6;
@@ -26222,6 +26591,14 @@
 	},
 /turf/unsimulated/floor,
 /area/velocity/monorailwagon)
+"hQi" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "darkred"
+	},
+/area/centcom)
 "hRb" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "warn"
@@ -26258,6 +26635,11 @@
 	},
 /turf/simulated/floor{
 	icon_state = "dark"
+	},
+/area/centcom)
+"hTm" = (
+/turf/simulated/floor{
+	icon_state = "blackchoco"
 	},
 /area/centcom)
 "hUb" = (
@@ -26301,6 +26683,10 @@
 	icon_state = "dark"
 	},
 /area/centcom/specops)
+"hXC" = (
+/obj/structure/grille,
+/turf/environment/space,
+/area/space)
 "hYb" = (
 /obj/structure/stool/bed/chair/schair/wagon/red{
 	dir = 1
@@ -26376,6 +26762,12 @@
 	icon_state = "blue"
 	},
 /area/centcom/specops)
+"ieE" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "ifb" = (
 /turf/unsimulated/floor{
 	dir = 4;
@@ -26388,6 +26780,19 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/evac)
+"igB" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -4;
+	pixel_y = 14
+	},
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{
+	pixel_y = 3;
+	pixel_x = -10
+	},
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space,
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
 "ihb" = (
 /obj/structure/sign/mark{
 	icon_state = "rrt"
@@ -26413,12 +26818,47 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/specops)
+"ilS" = (
+/obj/effect/landmark/late_party/assassin,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "black"
+	},
+/area/centcom)
 "imb" = (
 /turf/unsimulated/floor{
 	dir = 4;
 	icon_state = "blackcorner"
 	},
 /area/centcom/control)
+"imQ" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/projectile/automatic/a28/nonlethal{
+	pixel_y = 3
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "inb" = (
 /turf/unsimulated/floor{
 	icon_state = "vaultfull"
@@ -26470,6 +26910,16 @@
 	icon_state = "bluecorner"
 	},
 /area/centcom/control)
+"itc" = (
+/obj/structure/stool/bed,
+/obj/item/weapon/bedsheet/purple,
+/obj/structure/sign/poster/contraband/lusty_xenomorph{
+	pixel_y = 32
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/obj/effect/landmark/late_party/pirate,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "iub" = (
 /turf/unsimulated/floor{
 	icon_state = "browncorner"
@@ -26584,6 +27034,14 @@
 	icon_state = "vaultfull"
 	},
 /area/centcom/control)
+"iKU" = (
+/obj/structure/flora/tree/dead,
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
 "iLb" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	dir = 8;
@@ -26676,6 +27134,19 @@
 	icon_state = "cafeteria"
 	},
 /area/centcom/living)
+"iUD" = (
+/obj/structure/table/glass,
+/obj/item/weapon/storage/fancy/cigarettes/cigpack_syndicate{
+	pixel_x = 7
+	},
+/obj/item/weapon/lighter/zippo/syndi{
+	pixel_x = -7
+	},
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "black"
+	},
+/area/centcom)
 "iVb" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -26689,6 +27160,16 @@
 	icon_state = "cafeteria"
 	},
 /area/centcom/living)
+"iVo" = (
+/obj/structure/sign/warning/secure_area/armory{
+	pixel_y = -32
+	},
+/obj/effect/landmark/late_party/assassin,
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "black"
+	},
+/area/centcom)
 "iWb" = (
 /obj/machinery/telecomms/receiver/preset_cent,
 /obj/effect/decal/turf_decal/alpha/gray{
@@ -26739,6 +27220,26 @@
 	icon_state = "dark"
 	},
 /area/centcom/control)
+"iZl" = (
+/obj/machinery/light/small,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
+"iZV" = (
+/obj/structure/rack,
+/obj/item/weapon/grenade/empgrenade{
+	pixel_x = 6
+	},
+/obj/item/weapon/grenade/empgrenade{
+	pixel_x = 3
+	},
+/obj/item/weapon/grenade/empgrenade,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "jab" = (
 /obj/structure/window/thin/reinforced{
 	dir = 1;
@@ -26901,6 +27402,39 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/evac)
+"joN" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/projectile/automatic/a28/nonlethal{
+	pixel_y = 3
+	},
+/obj/machinery/door/window/brigdoor{
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"joS" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/vomit,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "jpb" = (
 /obj/machinery/vending/dinnerware,
 /turf/unsimulated/floor{
@@ -26935,6 +27469,10 @@
 	icon_state = "neutralcorner"
 	},
 /area/centcom/control)
+"jtd" = (
+/obj/structure/flora/grass/brown,
+/turf/unsimulated/floor/snow,
+/area/centcom)
 "jub" = (
 /obj/machinery/computer/rdservercontrol{
 	badmin = 1;
@@ -27035,6 +27573,23 @@
 	icon_state = "dark"
 	},
 /area/centcom/control)
+"jDu" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/globose/black/pirate,
+/obj/item/clothing/mask/gas/coloured,
+/obj/item/clothing/head/helmet/space/globose/black/pirate,
+/obj/structure/window/thin/reinforced,
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "jEb" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -27144,6 +27699,15 @@
 	icon_state = "brown"
 	},
 /area/centcom/holding)
+"jPA" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/effect/decal/turf_decal/set_damaged,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "jQb" = (
 /obj/structure/mineral_door/wood,
 /turf/unsimulated/floor{
@@ -27251,6 +27815,16 @@
 	icon_state = "rcircuit"
 	},
 /area/custom/ninjaspawn)
+"jZC" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/landmark/late_party/assassin,
+/turf/simulated/floor{
+	dir = 6;
+	icon_state = "black"
+	},
+/area/centcom)
 "kab" = (
 /turf/unsimulated/floor{
 	dir = 1;
@@ -27355,6 +27929,14 @@
 	icon_state = "dark"
 	},
 /area/centcom/living)
+"khc" = (
+/obj/structure/flora/ausbushes/pointybush,
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
 "kib" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
@@ -27377,6 +27959,17 @@
 	icon_state = "yellow"
 	},
 /area/centcom/holding)
+"kjE" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	dir = 8;
+	icon_state = "chair_c02"
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/late_party/military_police,
+/turf/simulated/shuttle/floor{
+	icon_state = "floor2"
+	},
+/area/velocity/monorailwagon)
 "kkb" = (
 /turf/unsimulated/floor{
 	dir = 1;
@@ -27415,11 +28008,24 @@
 	icon_state = "wood"
 	},
 /area/centcom/holding)
+"koG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "kpb" = (
 /turf/unsimulated/floor{
 	icon_state = "neutralcorner"
 	},
 /area/centcom/holding)
+"kpu" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd1,1"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "kqb" = (
 /turf/unsimulated/floor{
 	icon_state = "vaultfull"
@@ -27450,6 +28056,35 @@
 	icon_state = "dark"
 	},
 /area/centcom/living)
+"ksk" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd2,3"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
+"kss" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/globose/black/pirate,
+/obj/item/clothing/mask/gas/coloured,
+/obj/item/clothing/head/helmet/space/globose/black/pirate/leader,
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
+"ksM" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/belt/utility,
+/obj/item/weapon/storage/belt/utility{
+	pixel_y = 5
+	},
+/obj/item/weapon/storage/belt/utility{
+	pixel_y = 10
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "kvb" = (
 /obj/machinery/implantchair,
 /turf/unsimulated/floor{
@@ -27504,6 +28139,12 @@
 	icon_state = "neutralcorner"
 	},
 /area/centcom/holding)
+"kzr" = (
+/obj/structure/stool/bed,
+/obj/item/weapon/bedsheet/gar,
+/obj/effect/landmark/late_party/pirate,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "kAb" = (
 /obj/structure/stool/bed/chair/comfy/black{
 	dir = 1
@@ -27512,6 +28153,13 @@
 	icon_state = "neutral"
 	},
 /area/centcom/holding)
+"kAc" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "blackcorner"
+	},
+/area/centcom)
 "kBb" = (
 /obj/structure/closet/lasertag/red,
 /turf/unsimulated/floor{
@@ -27539,6 +28187,10 @@
 	icon_state = "dark"
 	},
 /area/centcom/living)
+"kDp" = (
+/obj/structure/window/fulltile/reinforced/indestructible,
+/turf/unsimulated/floor,
+/area/custom/pirates_base)
 "kEb" = (
 /obj/machinery/gateway{
 	dir = 6
@@ -27581,6 +28233,14 @@
 	icon_state = "yellow"
 	},
 /area/centcom/holding)
+"kHl" = (
+/obj/structure/rack,
+/obj/item/weapon/storage/box/flashbangs,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkredcorners"
+	},
+/area/centcom)
 "kIb" = (
 /obj/effect/decal/turf_decal{
 	dir = 1;
@@ -27673,6 +28333,19 @@
 	icon_state = "white"
 	},
 /area/centcom/living)
+"kSD" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/screwdriver{
+	pixel_x = 7
+	},
+/obj/item/weapon/wrench{
+	pixel_y = 4;
+	pixel_x = -4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "kTb" = (
 /turf/unsimulated/floor{
 	dir = 1;
@@ -27710,6 +28383,12 @@
 	icon_state = "vaultfull"
 	},
 /area/centcom/holding)
+"kVo" = (
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "kVY" = (
 /obj/effect/decal/turf_decal{
 	dir = 1;
@@ -27831,12 +28510,28 @@
 	icon_state = "neutralcorner"
 	},
 /area/centcom/holding)
+"lhi" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "lib" = (
 /turf/unsimulated/floor{
 	dir = 10;
 	icon_state = "green"
 	},
 /area/centcom/living)
+"liH" = (
+/obj/structure/stool/bed/chair/office/dark{
+	dir = 1
+	},
+/obj/effect/landmark/late_party/assassin,
+/turf/simulated/floor{
+	icon_state = "blackchoco"
+	},
+/area/centcom)
 "ljb" = (
 /turf/unsimulated/floor{
 	dir = 8;
@@ -27857,6 +28552,15 @@
 	icon_state = "yellow"
 	},
 /area/centcom/holding)
+"llt" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/food/snacks/pizzaslice/margherita{
+	pixel_y = -2;
+	pixel_x = -4
+	},
+/obj/item/toy/crayon/chalk,
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "lmb" = (
 /obj/structure/largecrate,
 /turf/unsimulated/floor{
@@ -27874,6 +28578,15 @@
 	icon_state = "yellow"
 	},
 /area/centcom/holding)
+"lnc" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/globose/black,
+/obj/item/clothing/head/helmet/space/globose/black,
+/obj/structure/spider/stickyweb,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "lob" = (
 /turf/unsimulated/floor{
 	icon_state = "yellow"
@@ -28063,6 +28776,13 @@
 	icon_state = "green"
 	},
 /area/centcom/control)
+"lHV" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "lJR" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/storage/box/donkpockets,
@@ -28075,6 +28795,24 @@
 	icon_state = "vaultfull"
 	},
 /area/centcom/tdome)
+"lKx" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/glass/bottle/chefspecial,
+/obj/item/weapon/reagent_containers/glass/bottle/chloralhydrate{
+	pixel_x = -9
+	},
+/obj/item/weapon/reagent_containers/glass/bottle/cyanide{
+	pixel_x = 8
+	},
+/obj/item/weapon/gun/syringe/syndicate{
+	pixel_x = 4;
+	pixel_y = 14
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/centcom)
 "lLb" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -28096,6 +28834,11 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"lMX" = (
+/obj/structure/table/woodentable,
+/obj/item/weapon/reagent_containers/food/drinks/coffee,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "lNb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "12,7"
@@ -28188,6 +28931,20 @@
 	icon_state = "engine"
 	},
 /area/space)
+"lTM" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"lUq" = (
+/obj/structure/sign/poster/official/no_erp{
+	pixel_x = 31
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "lWr" = (
 /obj/structure/object_wall/standart{
 	dir = 8;
@@ -28300,6 +29057,12 @@
 	icon_state = "whitehall"
 	},
 /area/centcom/specops)
+"mhr" = (
+/turf/simulated/floor{
+	dir = 9;
+	icon_state = "darkred"
+	},
+/area/centcom)
 "mib" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -28324,6 +29087,32 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"mkP" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced,
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/projectile/automatic/a28/nonlethal{
+	pixel_y = 3
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "mlb" = (
 /obj/structure/sign/mark{
 	icon_state = "ylf"
@@ -28404,6 +29193,12 @@
 	icon_state = "vaultfull"
 	},
 /area/centcom/tdome)
+"mte" = (
+/obj/structure/stool/bed,
+/obj/effect/landmark/late_party/pirate_captain,
+/obj/item/weapon/bedsheet/red,
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
 "mub" = (
 /obj/structure/sign/mark{
 	icon_state = "yup"
@@ -28470,6 +29265,39 @@
 	icon_state = "floorplating"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"mBk" = (
+/obj/structure/object_wall/standart{
+	icon_state = "wall3"
+	},
+/obj/structure/object_wall/standart{
+	icon_state = "wall3"
+	},
+/turf/environment/space,
+/area/custom/pirates_base)
+"mBK" = (
+/obj/structure/table/glass,
+/obj/item/weapon/reagent_containers/food/drinks/coffee,
+/obj/item/weapon/reagent_containers/food/drinks/coffee,
+/obj/item/weapon/reagent_containers/food/drinks/coffee,
+/obj/item/weapon/reagent_containers/food/drinks/coffee,
+/obj/item/weapon/reagent_containers/food/drinks/coffee,
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "black"
+	},
+/area/centcom)
+"mCb" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"mCB" = (
+/obj/structure/dresser,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "mDb" = (
 /obj/machinery/vending/coffee,
 /turf/unsimulated/floor{
@@ -28495,6 +29323,9 @@
 	icon_state = "redbluefull"
 	},
 /area/centcom/tdome/tdomeobserve)
+"mFv" = (
+/turf/unsimulated/floor/snow,
+/area/centcom)
 "mGb" = (
 /obj/random/vending/snack,
 /turf/unsimulated/floor{
@@ -28612,6 +29443,14 @@
 	},
 /turf/environment/space,
 /area/space)
+"mTh" = (
+/obj/item/weapon/paper{
+	pixel_x = 3
+	},
+/obj/item/weapon/pen/red,
+/obj/structure/table/woodentable,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "mTZ" = (
 /obj/structure/stool/bed/chair/comfy/black,
 /obj/effect/landmark/late_party/comissar,
@@ -28641,6 +29480,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/decal/turf_decal/set_damaged,
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -28657,6 +29497,14 @@
 	},
 /turf/unsimulated/wall,
 /area/centcom/evac)
+"mYe" = (
+/obj/structure/sign/poster/contraband/rebels_unite{
+	pixel_x = -32
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "mYv" = (
 /obj/structure/mirror{
 	pixel_y = 32
@@ -28700,6 +29548,13 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/evac)
+"ndS" = (
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
 "neb" = (
 /obj/structure/sign/mark/symbol_b{
 	icon_state = "E"
@@ -28787,6 +29642,15 @@
 	icon_state = "redyellowfull"
 	},
 /area/centcom/tdome/tdomeadmin)
+"nom" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/security/wooden_tv/miami{
+	pixel_y = 3
+	},
+/turf/simulated/floor{
+	icon_state = "black"
+	},
+/area/centcom)
 "npb" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/stool/bed/chair/metal{
@@ -28814,6 +29678,18 @@
 	icon_state = "redyellowfull"
 	},
 /area/centcom/tdome/tdomeadmin)
+"nrw" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/box/drinkingglasses{
+	pixel_y = 3;
+	pixel_x = 4
+	},
+/obj/item/weapon/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = -4;
+	pixel_y = 14
+	},
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "nsb" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -28825,7 +29701,9 @@
 	},
 /area/centcom/tdome/tdomeadmin)
 "nsZ" = (
-/obj/machinery/door/poddoor/shutters/syndi,
+/obj/machinery/door/poddoor/shutters/syndi{
+	name = "Exit"
+	},
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
@@ -28874,6 +29752,11 @@
 	icon_state = "redyellowfull"
 	},
 /area/centcom/tdome/tdomeadmin)
+"nwn" = (
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "nwI" = (
 /turf/unsimulated/floor{
 	icon_state = "purplechecker"
@@ -28905,6 +29788,17 @@
 /obj/structure/curtain/black,
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"nyR" = (
+/obj/structure/sign/warning/secure_area/armory{
+	pixel_x = 30
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "nzb" = (
 /obj/machinery/computer/pod{
 	id = "thunderdome";
@@ -29047,6 +29941,10 @@
 "nNb" = (
 /turf/unsimulated/floor/carpet/black,
 /area/custom/tophat)
+"nOw" = (
+/obj/effect/decal/turf_decal/set_damaged,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "nRb" = (
 /obj/item/weapon/staff/gentcane,
 /obj/item/weapon/storage/backpack/satchel/withwallet,
@@ -29111,6 +30009,11 @@
 	name = "lava"
 	},
 /area/custom/wizard_station)
+"nVQ" = (
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorcatwalk"
+	},
+/area/custom/pirates_base)
 "nWb" = (
 /obj/structure/stool/bar,
 /turf/unsimulated/floor/carpet/black,
@@ -29316,12 +30219,22 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"otz" = (
+/obj/structure/stool/bed,
+/obj/item/weapon/bedsheet/green,
+/obj/effect/landmark/late_party/pirate,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "oub" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,7"
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"ouk" = (
+/obj/item/weapon/flora/random,
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
 "ouG" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -29369,6 +30282,14 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"oAW" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd2,2"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "oBb" = (
 /obj/machinery/light{
 	dir = 4
@@ -29378,10 +30299,26 @@
 	},
 /turf/simulated/shuttle/floor/evac,
 /area/shuttle/escape/centcom)
+"oBl" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkstairs2_wide"
+	},
+/area/custom/pirates_base)
 "oCb" = (
 /obj/structure/curtain/open,
 /turf/simulated/shuttle/floor/evac,
 /area/shuttle/escape/centcom)
+"oCj" = (
+/obj/machinery/vending/coffee{
+	name = "Hacked Hot Drinks machine";
+	prices = list()
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "blackcorner"
+	},
+/area/centcom)
 "oEb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,13"
@@ -29411,6 +30348,20 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/control)
+"oIS" = (
+/obj/structure/stool/bed/chair/schair/monorail_chair{
+	dir = 8;
+	icon_state = "chair_c02"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/late_party/military_police,
+/turf/simulated/shuttle/floor{
+	icon_state = "floor2"
+	},
+/area/velocity/monorailwagon)
 "oJb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "15,13"
@@ -29425,6 +30376,9 @@
 "oLb" = (
 /turf/simulated/shuttle/floor/evac/medbay,
 /area/shuttle/escape/centcom)
+"oLc" = (
+/turf/simulated/wall/r_wall/beige,
+/area/centcom)
 "oMb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "14,13"
@@ -29440,6 +30394,25 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"oNO" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/globose/black/pirate,
+/obj/item/clothing/mask/gas/coloured,
+/obj/item/clothing/head/helmet/space/globose/black/pirate,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "oOb" = (
 /obj/machinery/light{
 	dir = 8
@@ -29447,12 +30420,28 @@
 /obj/structure/stool/bed/chair/schair/wagon/green,
 /turf/simulated/shuttle/floor/evac/place,
 /area/shuttle/escape/centcom)
+"oOV" = (
+/obj/structure/chalkboard,
+/turf/simulated/floor{
+	icon_state = "blackcorner"
+	},
+/area/centcom)
 "oPb" = (
 /obj/structure/stool/bed/chair/schair/wagon/red{
 	dir = 4
 	},
 /turf/simulated/shuttle/floor/evac/sec2,
 /area/shuttle/escape/centcom)
+"oPJ" = (
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/computerframe,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "oQb" = (
 /obj/machinery/light/spot{
 	dir = 4
@@ -29492,6 +30481,22 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"oUQ" = (
+/obj/effect/landmark/late_party/communist,
+/obj/item/weapon/stool,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
+"oUX" = (
+/obj/structure/sign/warning/securearea{
+	pixel_x = 32
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorcatwalk"
+	},
+/area/custom/pirates_base)
 "oVb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,11"
@@ -29569,6 +30574,12 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/evac)
+"pfa" = (
+/obj/effect/decal/cleanable/cobweb,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "pfb" = (
 /obj/effect/decal/turf_decal{
 	dir = 4;
@@ -29683,6 +30694,14 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pps" = (
+/obj/structure/flora/grass/both,
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
 "pqb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,23";
@@ -29697,6 +30716,12 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pre" = (
+/obj/structure/object_wall/standart{
+	icon_state = "wall3"
+	},
+/turf/environment/space,
+/area/custom/pirates_base)
 "psb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "7,23";
@@ -29748,12 +30773,29 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pzf" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/centcom)
 "pAb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,10"
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pBX" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/med_data/laptop{
+	req_one_access = list(150)
+	},
+/turf/simulated/floor{
+	icon_state = "black"
+	},
+/area/centcom)
 "pCb" = (
 /obj/machinery/door/airlock/external{
 	dir = 4;
@@ -29769,6 +30811,11 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pEH" = (
+/turf/simulated/floor{
+	icon_state = "darkred"
+	},
+/area/centcom)
 "pFb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,9"
@@ -29823,6 +30870,18 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pLv" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced,
+/obj/item/weapon/storage/box/flashbangs,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "pMb" = (
 /obj/machinery/light{
 	dir = 4
@@ -29833,6 +30892,9 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/evac)
+"pMB" = (
+/turf/simulated/wall/r_wall/yellow,
+/area/centcom)
 "pNb" = (
 /obj/machinery/sleeper{
 	dir = 4
@@ -29866,6 +30928,14 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pTz" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/centcom)
 "pUb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,1";
@@ -29879,10 +30949,6 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
-"pVk" = (
-/obj/effect/landmark/late_party/communist,
-/turf/unsimulated/floor,
-/area/centcom/specops)
 "pWb" = (
 /obj/structure/object_wall/evac{
 	density = 0;
@@ -29922,6 +30988,18 @@
 	},
 /turf/environment/space,
 /area/shuttle/escape/centcom)
+"pYR" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/gloves/power,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"pYZ" = (
+/obj/item/weapon/stool,
+/obj/effect/landmark/late_party/pirate,
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "qab" = (
 /obj/machinery/computer/aifixer,
 /turf/simulated/shuttle/floor/evac,
@@ -29932,6 +31010,12 @@
 	},
 /turf/environment/space,
 /area/shuttle/transport1/centcom)
+"qbr" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "qcb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,20"
@@ -29948,6 +31032,16 @@
 	icon_state = "brown"
 	},
 /area/velocity)
+"qeQ" = (
+/obj/machinery/media/jukebox/syndi,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"qeV" = (
+/obj/effect/decal/turf_decal/set_damaged,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "qnM" = (
 /obj/effect/step_trigger/thrower{
 	direction = 4;
@@ -29956,6 +31050,11 @@
 	},
 /turf/environment/space,
 /area/space)
+"qqf" = (
+/obj/item/weapon/stool,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "qsd" = (
 /obj/machinery/recharge_station,
 /obj/structure/sign/poster/contraband/borg_fancy_2{
@@ -29982,6 +31081,22 @@
 	icon_state = "dark"
 	},
 /area/velocity)
+"qzy" = (
+/obj/structure/flora/grass/green,
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
+"qDw" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd3,1"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "qDT" = (
 /obj/structure/cult/pylon,
 /turf/unsimulated/floor/cult,
@@ -30014,16 +31129,89 @@
 	icon_state = "floorplating"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"qVm" = (
+/turf/simulated/floor{
+	icon_state = "black"
+	},
+/area/centcom)
+"qWu" = (
+/obj/structure/chalkboard,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"qWR" = (
+/obj/structure/flora/tree/pine,
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
+"qYj" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd1,3"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
+"qYw" = (
+/obj/machinery/vending/snack{
+	name = "Hacked Getmore Chocolate Corp";
+	prices = list()
+	},
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "black"
+	},
+/area/centcom)
+"rbc" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "rkK" = (
 /obj/item/weapon/flora/pottedplant/tropicalfern{
 	pixel_y = 5
 	},
 /turf/unsimulated/floor,
 /area/velocity)
+"rnD" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkstairs_alone"
+	},
+/area/centcom)
+"rUV" = (
+/obj/structure/table/reinforced,
+/obj/item/mine{
+	pixel_y = 10
+	},
+/obj/item/mine,
+/obj/item/mine{
+	pixel_y = -10
+	},
+/obj/structure/sign/warning/pods{
+	desc = "A sign which reads 'DROP PODS'.";
+	name = "\improper DROP PODS";
+	pixel_w = 33;
+	pixel_y = -34
+	},
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkredcorners"
+	},
+/area/centcom)
 "rXM" = (
 /obj/item/weapon/flora/random,
 /turf/simulated/shuttle/floor/vox,
 /area/custom/syndicate_mothership/elite_squad)
+"rZW" = (
+/obj/structure/flora/grass/brown,
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
 "saj" = (
 /obj/effect/decal/turf_decal/set_damaged,
 /obj/effect/decal/turf_decal/alpha/yellow{
@@ -30038,11 +31226,41 @@
 	name = "plating"
 	},
 /area/velocity)
+"saP" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "scL" = (
 /obj/structure/table/woodentable/fancy/black,
 /obj/item/weapon/kitchenknife/ritual,
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"seL" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/crowbar/red,
+/obj/item/weapon/crowbar/red,
+/obj/item/weapon/crowbar/red,
+/obj/item/weapon/crowbar/red,
+/obj/item/weapon/crowbar/red,
+/obj/item/weapon/crowbar/red,
+/obj/item/weapon/crowbar/red,
+/obj/item/weapon/crowbar/red,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"sjD" = (
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/computerframe,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "skC" = (
 /obj/item/weapon/reagent_containers/blood/AMinus{
 	pixel_x = -7;
@@ -30088,6 +31306,11 @@
 	},
 /turf/simulated/shuttle/floor/evac/medbay,
 /area/shuttle/escape/centcom)
+"slS" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "slT" = (
 /obj/structure/closet/emcloset,
 /obj/machinery/light,
@@ -30097,6 +31320,12 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/evac)
+"soH" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
 "ssN" = (
 /turf/unsimulated/wall/abductor{
 	icon_state = "alien3";
@@ -30120,6 +31349,33 @@
 	icon_state = "floorcatwalk"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"sCp" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/food/drinks/drinkingglass{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/item/weapon/reagent_containers/food/snacks/grown/apple/poisoned,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"sIE" = (
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"sJQ" = (
+/obj/item/weapon/rack_parts,
+/obj/structure/spider/stickyweb,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "sPb" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -30129,6 +31385,52 @@
 	icon_state = "brown"
 	},
 /area/velocity)
+"sRK" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space{
+	pixel_x = -10;
+	pixel_y = 18
+	},
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space{
+	pixel_x = 10;
+	pixel_y = 10
+	},
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space{
+	pixel_x = 10;
+	pixel_y = 2
+	},
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space{
+	pixel_x = 10;
+	pixel_y = 10
+	},
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space{
+	pixel_x = 10;
+	pixel_y = 18
+	},
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space{
+	pixel_x = -10;
+	pixel_y = 10
+	},
+/obj/item/weapon/storage/firstaid/small_firstaid_kit/space{
+	pixel_x = -10;
+	pixel_y = 2
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"sUr" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/structure/sign/warning/pods{
+	desc = "A sign which reads 'DROP PODS'.";
+	name = "\improper DROP PODS";
+	pixel_w = 33;
+	pixel_x = 31
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorup"
+	},
+/area/custom/pirates_base)
 "sYp" = (
 /obj/machinery/light,
 /obj/structure/sign/velocity_overlay/reklama{
@@ -30139,10 +31441,37 @@
 	},
 /turf/unsimulated/floor,
 /area/velocity)
+"tkq" = (
+/obj/structure/table/reinforced,
+/obj/item/pizzabox/mushroom{
+	pixel_y = 21
+	},
+/obj/item/pizzabox/vegetable{
+	pixel_y = 16
+	},
+/obj/item/pizzabox/margherita{
+	pixel_y = 11
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"tmk" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/light/small,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "tqh" = (
 /obj/structure/cult/statue/camera/gargoyle,
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"tuZ" = (
+/obj/structure/table/woodentable,
+/obj/machinery/kitchen_machine/microwave,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "tAz" = (
 /obj/machinery/door/airlock/centcom{
 	dir = 4;
@@ -30151,6 +31480,23 @@
 	},
 /turf/unsimulated/floor,
 /area/centcom/tdome)
+"tNZ" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/sign/poster/contraband/d_day_promo{
+	pixel_x = -30
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"tRm" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{
+	pixel_y = 3;
+	pixel_x = -10
+	},
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "tWq" = (
 /obj/structure/stool/bed/chair/metal/red{
 	dir = 4
@@ -30160,6 +31506,63 @@
 	},
 /turf/simulated/shuttle/floor/vox,
 /area/custom/syndicate_mothership/elite_squad)
+"tYW" = (
+/obj/structure/table/glass,
+/obj/item/weapon/book/manual/nuclear,
+/turf/simulated/floor{
+	dir = 5;
+	icon_state = "black"
+	},
+/area/centcom)
+"tZp" = (
+/obj/machinery/light/small,
+/obj/structure/closet/crate/trashcart,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"udQ" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/card/emag,
+/obj/item/device/camera_bug{
+	pixel_x = 13
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"uim" = (
+/obj/effect/decal/turf_decal/set_burned,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"uiM" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced,
+/obj/item/weapon/storage/box/smokegrenades,
+/obj/machinery/door/window/brigdoor{
+	dir = 1;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"ukn" = (
+/obj/machinery/door/poddoor/shutters/syndi{
+	name = "Exit"
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"ukp" = (
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "bot"
+	},
+/obj/structure/droppod/Legitimate,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/centcom)
 "usD" = (
 /obj/structure/sign/directions/velocity{
 	dir = 4;
@@ -30170,6 +31573,13 @@
 	icon_state = "vaultfull"
 	},
 /area/velocity)
+"uta" = (
+/obj/structure/dresser,
+/obj/structure/sign/poster/contraband/bountyhunters{
+	pixel_y = 30
+	},
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
 "uwB" = (
 /obj/item/device/radio/intercom{
 	broadcasting = 1;
@@ -30186,6 +31596,14 @@
 	icon_state = "bcircuit"
 	},
 /area/custom/syndicate_mothership/control)
+"uBc" = (
+/obj/effect/decal/turf_decal{
+	icon_state = "synd3,2"
+	},
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "uDv" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
@@ -30197,6 +31615,16 @@
 	icon_state = "floorcatwalk"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"uDX" = (
+/obj/machinery/light/small{
+	force_override_color = "#008000"
+	},
+/turf/unsimulated/floor/snow{
+	nitrogen = 100;
+	oxygen = 25;
+	temperature = 243
+	},
+/area/centcom)
 "uEN" = (
 /obj/effect/step_trigger/teleporter/random{
 	name = "escapeshuttle_leave_noghosts";
@@ -30209,6 +31637,32 @@
 	},
 /turf/environment/space,
 /area/space)
+"uFs" = (
+/obj/structure/stool/bed,
+/obj/item/weapon/bedsheet/blue,
+/obj/effect/landmark/late_party/pirate,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"uHJ" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"uNk" = (
+/obj/machinery/door/airlock/centcom{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"uNZ" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkstairs_wide"
+	},
+/area/custom/pirates_base)
 "vak" = (
 /obj/machinery/door/airlock/external{
 	dir = 4;
@@ -30231,6 +31685,44 @@
 	icon_state = "dark"
 	},
 /area/velocity)
+"vbE" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/item/weapon/gun/projectile/automatic/a28/nonlethal{
+	pixel_y = 3
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/machinery/door/window/brigdoor{
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"vck" = (
+/obj/effect/decal/remains/robot,
+/obj/effect/decal/cleanable/dirt,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"vhy" = (
+/obj/structure/sign/warning/vacuum/external{
+	pixel_y = -31
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "vir" = (
 /obj/structure/closet/wardrobe/grey,
 /obj/effect/decal/turf_decal/alpha/gray{
@@ -30266,6 +31758,30 @@
 	icon_state = "neutral"
 	},
 /area/velocity)
+"vqV" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/space/globose/black/pirate,
+/obj/item/clothing/mask/gas/coloured,
+/obj/item/clothing/head/helmet/space/globose/black/pirate,
+/obj/structure/window/thin/reinforced{
+	dir = 8
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/machinery/door/window/brigdoor{
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"vsy" = (
+/obj/effect/decal/turf_decal/set_damaged,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/centcom)
 "vAl" = (
 /obj/effect/spawner/aspect/mech/dark_gygax,
 /turf/unsimulated/floor{
@@ -30273,6 +31789,44 @@
 	icon_state = "red"
 	},
 /area/custom/syndicate_mothership)
+"vAE" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/projectile/automatic/a28/nonlethal{
+	pixel_y = 3
+	},
+/obj/machinery/door/window/brigdoor{
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"vCL" = (
+/obj/machinery/light,
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/centcom)
+"vDE" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/box/syndie_kit/merch,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
 "vDJ" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/unsimulated/floor/cult/lava,
@@ -30301,6 +31855,16 @@
 	},
 /turf/unsimulated/floor,
 /area/velocity)
+"vPh" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"vQj" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "vSL" = (
 /obj/machinery/washing_machine,
 /obj/machinery/light/small{
@@ -30311,6 +31875,21 @@
 	icon_state = "floorcatwalk"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"vVy" = (
+/obj/structure/rack,
+/obj/item/weapon/kitchenknife/combat{
+	pixel_y = -2
+	},
+/obj/item/weapon/kitchenknife/combat{
+	pixel_y = 2
+	},
+/obj/item/weapon/kitchenknife/combat{
+	pixel_y = 6
+	},
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
 "vYm" = (
 /turf/environment/space,
 /area/shuttle/escape_pod6/centcom)
@@ -30320,6 +31899,44 @@
 "wfy" = (
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"wgQ" = (
+/obj/structure/rack,
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/projectile/automatic/a28/nonlethal{
+	pixel_y = 3
+	},
+/obj/machinery/door/window/brigdoor{
+	dir = 8;
+	req_access = list(150)
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"wiV" = (
+/obj/structure/table/glass,
+/obj/machinery/computer/security/bodycam{
+	pixel_y = 2;
+	req_one_access = list(150)
+	},
+/obj/item/toy/crayon/chalk{
+	pixel_x = -10
+	},
+/turf/simulated/floor{
+	icon_state = "black"
+	},
+/area/centcom)
 "wmN" = (
 /obj/machinery/light{
 	dir = 4
@@ -30331,11 +31948,34 @@
 "wtx" = (
 /turf/simulated/wall/cult/runed/anim,
 /area/custom/cult)
+"wyv" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/storage/box/syringes,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/pwine{
+	pixel_y = 20;
+	pixel_x = 10
+	},
+/obj/machinery/light,
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/centcom)
+"wIv" = (
+/obj/effect/decal/turf_decal/set_damaged,
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/centcom)
 "wMR" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/reagent_containers/food/drinks/drinkingglass/kvass{
 	pixel_x = 6;
 	pixel_y = 8
+	},
+/obj/item/weapon/switchblade{
+	pixel_x = -4;
+	pixel_y = 7;
+	name = "raskladushka"
 	},
 /turf/simulated/floor{
 	icon_state = "darkred"
@@ -30369,6 +32009,20 @@
 	icon_state = "floorcatwalk"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"xbd" = (
+/obj/machinery/washing_machine,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
+"xbv" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorcatwalk"
+	},
+/area/custom/pirates_base)
 "xdd" = (
 /obj/machinery/light{
 	dir = 4
@@ -30377,11 +32031,36 @@
 	name = "plating"
 	},
 /area/velocity)
+"xgr" = (
+/obj/structure/window/thin/reinforced{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/cobweb2,
+/obj/machinery/mech_bay_recharge_port{
+	dir = 2
+	},
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"xpy" = (
+/obj/item/weapon/stool,
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
 "xsM" = (
 /turf/simulated/shuttle/floor/vox{
 	icon_state = "floorcatwalk"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"xuI" = (
+/obj/machinery/light,
+/obj/structure/stool/bed/chair/comfy/black{
+	dir = 4
+	},
+/obj/effect/landmark/late_party/assassin,
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "black"
+	},
+/area/centcom)
 "xxx" = (
 /turf/simulated/floor{
 	dir = 1;
@@ -30404,6 +32083,38 @@
 	icon_state = "barber"
 	},
 /area/velocity)
+"xBG" = (
+/obj/structure/window/thin/reinforced{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/weapon/shard,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
+"xBR" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/kitchenknife,
+/obj/effect/decal/cleanable/cobweb2,
+/turf/simulated/shuttle/floor/fake_vox,
+/area/custom/pirates_base)
+"xDZ" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/armor/syndilight{
+	pixel_y = -7
+	},
+/obj/item/clothing/glasses/thermal{
+	pixel_y = 2
+	},
+/obj/item/clothing/head/helmet/syndilight{
+	pixel_y = 5
+	},
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/centcom)
 "xLi" = (
 /obj/structure/window/thin/reinforced{
 	dir = 1
@@ -30451,10 +32162,24 @@
 	icon_state = "brown"
 	},
 /area/velocity)
+"xYk" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "xYF" = (
 /obj/structure/cult/statue/camera,
 /turf/unsimulated/floor/cult/lava,
 /area/custom/cult)
+"ybC" = (
+/obj/structure/rack,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplace"
+	},
+/area/custom/pirates_base)
 "ycG" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Restroom";
@@ -30464,6 +32189,14 @@
 	icon_state = "floorcatwalk"
 	},
 /area/custom/syndicate_mothership/elite_squad)
+"ydc" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "black"
+	},
+/area/centcom)
 "yea" = (
 /turf/unsimulated/floor/cult,
 /area/custom/cult)
@@ -30476,6 +32209,22 @@
 	icon_state = "floorcatwalk"
 	},
 /area/shuttle/vox/arkship_hold)
+"yge" = (
+/obj/structure/rack,
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/ammo_box/magazine/a28/nonlethal{
+	pixel_y = -5
+	},
+/obj/item/weapon/gun/projectile/automatic/a28/nonlethal{
+	pixel_y = 6
+	},
+/turf/simulated/floor/carpet/red,
+/area/custom/pirates_base)
 "ygn" = (
 /obj/machinery/door/airlock/centcom{
 	locked = 1;
@@ -30486,6 +32235,19 @@
 	icon_state = "floorcatwalk"
 	},
 /area/custom/syndicate_mothership/control)
+"yhy" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/food/drinks/drinkingglass{
+	pixel_x = 5
+	},
+/turf/simulated/floor/grid_floor,
+/area/custom/pirates_base)
+"ykC" = (
+/obj/effect/landmark/late_party/assassin,
+/turf/simulated/floor{
+	icon_state = "blackchoco"
+	},
+/area/centcom)
 
 (1,1,1) = {"
 ahG
@@ -56547,15 +58309,15 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+ahJ
+ahI
+ahJ
+ahJ
+ahI
+ahI
+ahI
+ahI
+ahI
 aaM
 aaM
 aaM
@@ -56803,16 +58565,16 @@ aaM
 aaM
 aaM
 aaM
+ahI
+ahI
+hXC
+aaM
+aaM
+ahJ
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+ahI
 aaM
 aaM
 aaM
@@ -57054,22 +58816,22 @@ aaM
 aaM
 aaM
 aaM
+hXC
+hXC
+ahI
+ahI
+ahI
+ahI
+ahI
 aaM
 aaM
 aaM
 aaM
+ahJ
+ahJ
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+ahI
 aaM
 aaM
 aaM
@@ -57310,6 +59072,10 @@ aaM
 aaM
 aaM
 aaM
+ahJ
+ahI
+ahJ
+ahJ
 aaM
 aaM
 aaM
@@ -57318,15 +59084,11 @@ aaM
 aaM
 aaM
 aaM
+ahJ
+ahJ
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+ahI
 aaM
 aaM
 aaM
@@ -57566,6 +59328,10 @@ aaM
 aaM
 aaM
 aaM
+ahJ
+ahJ
+hXC
+ahJ
 aaM
 aaM
 aaM
@@ -57575,15 +59341,11 @@ aaM
 aaM
 aaM
 aaM
+ahJ
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+hXC
+hXC
+ahI
 aaM
 aaM
 aaM
@@ -57823,24 +59585,24 @@ aaM
 aaM
 aaM
 aaM
+pre
+pre
+pre
+pre
+kDp
+kDp
+kDp
+kDp
+pre
+pre
+kDp
+kDp
+kDp
+pre
+pre
+hXC
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+ahJ
 aaM
 aaM
 aaM
@@ -58073,35 +59835,35 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+joS
+bdG
+pre
+yge
+dgi
+dgi
+kss
+pre
+uFs
+gqC
+mCB
+uim
+kzr
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
 aaM
 aaM
 aaM
@@ -58330,35 +60092,35 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+nwn
+hrM
+nwn
+hrM
+hOy
+dKE
+pre
+bpH
+iZl
+pre
+uta
+dgi
+dgi
+igB
+pre
+lMX
+cyY
+cyY
+gqC
+mTh
+pre
+vPh
+saP
+vDE
+bsG
+ybC
+bpH
+pre
 aaM
 aaM
 aaM
@@ -58587,35 +60349,35 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+egu
+nwn
+nwn
+nwn
+sjD
+bpH
+pre
+eba
+xbd
+pre
+mte
+dgi
+soH
+ouk
+pre
+itc
+lhi
+cyY
+lUq
+otz
+pre
+qWu
+gqC
+cEl
+cEl
+gqC
+gqC
+pre
 aaM
 aaM
 aaM
@@ -58844,35 +60606,35 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+cyY
+gqC
+cyY
+vck
+oBl
+bhu
+pre
+hdx
+pre
+pre
+pre
+uNk
+pre
+pre
+pre
+pre
+pre
+uNk
+pre
+pre
+pre
+gqC
+gqC
+pYZ
+xpy
+gqC
+tZp
+pre
 aaM
 aaM
 aaM
@@ -59101,35 +60863,35 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+cyY
+cEl
+cEl
+cyY
+eNV
+gqC
+cfK
+cEO
+cEl
+nVQ
+xbv
+nVQ
+bpH
+gqC
+gqC
+xYk
+nVQ
+nVQ
+cEl
+cEl
+cfK
+rbc
+pYZ
+llt
+yhy
+pYZ
+aZV
+ukn
 aaM
 aaM
 aaM
@@ -59358,35 +61120,35 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+gqC
+cEl
+rbc
+koG
+eNV
+gqC
+cfK
+sUr
+cEl
+nVQ
+nVQ
+nVQ
+nyR
+gqC
+bpH
+bpH
+oUX
+nVQ
+vQj
+cEl
+cfK
+rbc
+qqf
+tRm
+nrw
+xpy
+aZV
+ukn
 aaM
 aaM
 aaM
@@ -59615,35 +61377,35 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+gqC
+cyY
+cyY
+cyY
+uNZ
+bhu
+pre
+pre
+mBk
+pre
+pre
+uNk
+pre
+pre
+pre
+pre
+pre
+uNk
+pre
+pre
+pre
+bMC
+gqC
+xpy
+xpy
+cyY
+vhy
+pre
 aaM
 aaM
 aaM
@@ -59872,35 +61634,35 @@ aaM
 aaM
 aaM
 aaM
+pre
+egu
+nwn
+nwn
+nwn
+oPJ
+gqC
+pre
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+vbE
+tNZ
+gqC
+bBL
+pre
+vqV
+lHV
+slS
+gqC
+gqC
+jDu
+pre
+bpH
+gqC
+cEl
+cEl
+cyY
+bpH
+pre
 aaM
 aaM
 aaM
@@ -60129,35 +61891,35 @@ aaM
 aaM
 aaM
 aaM
+pre
+nwn
+hrM
+nwn
+hrM
+xgr
+dPt
+pre
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+joN
+gqC
+cOx
+pLv
+pre
+frT
+cyY
+gqC
+cyY
+cyY
+grI
+pre
+xBR
+tkq
+qeQ
+hvQ
+ieE
+bpH
+pre
 aaM
 aaM
 aaM
@@ -60179,7 +61941,7 @@ aCV
 aDi
 bpb
 aEc
-pVk
+aCV
 aBQ
 bib
 aBY
@@ -60386,35 +62148,35 @@ aaM
 aaM
 aaM
 aaM
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+vAE
+cyY
+cyY
+uiM
+pre
+sRK
+gqC
+nOw
+gqC
+gqC
+tmk
+pre
+pre
+pre
+mBk
+mBk
+pre
+pre
+pre
 aaM
 aaM
 aaM
@@ -60652,20 +62414,20 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+bMC
+cyY
+gqC
+gqC
+pre
+bMC
+gqC
+cyY
+cyY
+gqC
+gqC
+sJQ
+pre
 aaM
 aaM
 aaM
@@ -60909,20 +62671,20 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pre
+imQ
+wgQ
+wgQ
+mkP
+pre
+oNO
+bGn
+oNO
+epK
+oNO
+xBG
+lnc
+pre
 aaM
 aaM
 aaM
@@ -61166,20 +62928,20 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+mBk
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
+pre
 aaM
 aaM
 aaM
@@ -61941,13 +63703,13 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+apR
+apR
+apR
+apR
+apR
+apR
+apR
 aaM
 aaM
 aaM
@@ -62199,11 +63961,11 @@ aaM
 aaM
 aaM
 apR
-apR
-apR
-apR
-apR
-apR
+lzy
+apv
+apv
+apv
+lzy
 apR
 aaM
 aaM
@@ -62456,11 +64218,11 @@ aaM
 aaM
 aaM
 apR
+dqN
 apv
-lzy
+vsy
 apv
-lzy
-apv
+vCL
 apR
 aaM
 aaM
@@ -62704,22 +64466,22 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+aEz
+aEz
+aEz
+aEz
+aEz
+aEz
 apR
-apv
-apv
-apv
-apv
-apv
 apR
-aaM
+lzy
+apv
+rnD
+apv
+lzy
+apR
+apR
 aaM
 aaM
 avI
@@ -62961,22 +64723,22 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+ndS
+ndS
+ndS
+ndS
+ndS
 apR
-apv
-lzy
-apv
-lzy
-apv
+dAC
+jPA
+lTM
+ipY
+lTM
+lTM
+sIE
 apR
-aaM
 aaM
 aaM
 avI
@@ -63218,22 +64980,22 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+rZW
+ndS
+ndS
+ndS
+ndS
 apR
-apv
-apv
-apv
-apv
-apv
+kSD
+mCb
+ipY
+ipY
+qeV
+ipY
+seL
 apR
-aaM
 aaM
 aaM
 avI
@@ -63475,13 +65237,13 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+ndS
+ndS
+iKU
+ndS
+ndS
 apR
 apR
 apR
@@ -63732,18 +65494,18 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+ndS
+qWR
+ndS
+qzy
+pps
 apR
+pfa
 ipY
-ipY
-ipY
-ipY
+mYe
+cnP
 aps
 aqH
 ipY
@@ -63989,13 +65751,13 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+pps
+ndS
+ndS
+ndS
+khc
+uDX
 apR
 cfy
 puz
@@ -64003,7 +65765,7 @@ brm
 brm
 brm
 eMe
-ipY
+vVy
 apR
 aaM
 avI
@@ -64246,19 +66008,19 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-apR
+aEz
+ndS
+ndS
+pps
+iKU
+ndS
+mFv
+hqc
 ipY
 xVz
-aru
+wIv
 jiL
-jiL
+oUQ
 xxx
 etL
 apR
@@ -64503,21 +66265,21 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-apR
+aEz
+ndS
+afR
+ndS
+pps
+qzy
+jtd
+hqc
 mTZ
 wMR
 aru
 jiL
 jiL
 xxx
-ipY
+dXz
 apR
 aaM
 avI
@@ -64760,17 +66522,17 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-apR
+aEz
+ndS
+ndS
+ndS
+ndS
+ndS
+pps
+hqc
 ipY
 azi
-aru
+qbr
 jiL
 jiL
 xxx
@@ -65017,13 +66779,13 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+rZW
+khc
+ndS
+pps
+ndS
 apR
 mWV
 kMX
@@ -65274,21 +67036,21 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+ndS
+ndS
+ndS
+qWR
+ndS
 apR
 ipY
 aqi
 vOI
 hTf
-ipY
-ipY
-ipY
+cnP
+qeV
+tuZ
 apR
 aaM
 aaM
@@ -65531,13 +67293,13 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+qWR
+pps
+ndS
+ndS
+ndS
 apR
 apR
 apR
@@ -65788,14 +67550,14 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+ndS
+ndS
+ndS
+ndS
+ndS
+ndS
+aEz
 aaM
 aaM
 aaM
@@ -66045,14 +67807,14 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+aEz
+aEz
+aEz
+aEz
+aEz
+aEz
+aEz
+aEz
 aaM
 aaM
 aaM
@@ -66824,14 +68586,14 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
 aaM
 aaM
 aaM
@@ -67075,26 +68837,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+pMB
+pMB
+bQK
+pMB
+pMB
+pMB
+hMa
+fEN
+ksM
+xDZ
+ipY
+aEx
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
 aaM
 aaM
 aaM
@@ -67332,26 +69094,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+oOV
+jZC
+hTm
+qYw
+cfz
+pMB
+puz
+hxJ
+aru
+kVo
+eMe
+sCp
+oLc
+apv
+apv
+apv
+apv
+pTz
+oLc
 aaM
 aaM
 aaM
@@ -67589,26 +69351,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+qVm
+hTm
+hTm
+hTm
+xuI
+pMB
+pEH
+aru
+aru
+aru
+xxx
+wyv
+oLc
+apv
+ukp
+apv
+ukp
+apv
+oLc
 aaM
 aaM
 aaM
@@ -67846,26 +69608,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+wiV
+hTm
+hTm
+hTm
+tYW
+pMB
+grW
+qDw
+ggz
+kpu
+kVo
+lKx
+oLc
+dqN
+apv
+apv
+apv
+apv
+oLc
 aaM
 aaM
 aaM
@@ -68103,26 +69865,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+pBX
+liH
+hTm
+hTm
+hTm
+clp
+ipY
+uBc
+oAW
+feY
+aru
+xxx
+clp
+apv
+apv
+apv
+apv
+apv
+oLc
 aaM
 aaM
 aaM
@@ -68360,26 +70122,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+nom
+hTm
+hTm
+hTm
+iVo
+pMB
+puz
+eUI
+ksk
+qYj
+mhr
+rUV
+oLc
+dqN
+apv
+apv
+apv
+apv
+oLc
 aaM
 aaM
 aaM
@@ -68617,26 +70379,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+ydc
+hTm
+ykC
+hTm
+ilS
+pMB
+hQi
+aru
+aru
+aru
+xxx
+udQ
+oLc
+apv
+ukp
+apv
+ukp
+apv
+oLc
 aaM
 aaM
 aaM
@@ -68874,26 +70636,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+kAc
+mBK
+iUD
+elV
+oCj
+pMB
+kMX
+aEx
+aru
+mhr
+gYJ
+pYR
+oLc
+apv
+apv
+apv
+apv
+pzf
+oLc
 aaM
 aaM
 aaM
@@ -69131,26 +70893,26 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+pMB
+pMB
+pMB
+pMB
+pMB
+pMB
+pMB
+kVo
+hEg
+iZV
+kHl
+uHJ
+hxJ
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
 aaM
 aaM
 aaM
@@ -69394,14 +71156,14 @@ aaM
 aaM
 aaM
 aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
-aaM
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
+oLc
 aaM
 aaM
 aaM
@@ -81480,9 +83242,9 @@ dwb
 dwb
 dKb
 dPb
-dWb
-eab
-dWb
+kjE
+oIS
+kjE
 ejb
 epb
 evb

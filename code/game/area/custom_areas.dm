@@ -100,3 +100,11 @@
 	icon_state = "red"
 	requires_power = 0
 	dynamic_lighting = FALSE
+
+/area/custom/pirates_base
+	name = "Pirate's Base"
+	icon_state = "syndie-ship"
+	requires_power = FALSE
+	dynamic_lighting = TRUE
+	is_force_ambience = TRUE
+	ambience = list('sound/ambience/pirate_base.ogg')

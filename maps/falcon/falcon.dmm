@@ -8368,7 +8368,7 @@
 	name = "Common Channel";
 	pixel_y = -20
 	},
-/obj/effect/spawner/aspect/newai ,
+/obj/effect/spawner/aspect/newai,
 /turf/simulated/floor/whitegreed,
 /area/station/aisat/ai_chamber)
 "apT" = (
@@ -11015,6 +11015,10 @@
 	icon_state = "asteroid3"
 	},
 /area/station/maintenance/science)
+"byu" = (
+/obj/effect/landmark/late_party/prisoner,
+/turf/environment/space,
+/area/space)
 "bzg" = (
 /turf/simulated/wall,
 /area/station/civilian/toilet)
@@ -12502,7 +12506,7 @@
 	name = "Custom Channel";
 	pixel_y = 19
 	},
-/obj/effect/spawner/aspect/newai ,
+/obj/effect/spawner/aspect/newai,
 /turf/simulated/floor/whitegreed,
 /area/station/aisat/ai_chamber)
 "cYF" = (
@@ -19247,6 +19251,10 @@
 	dir = 6;
 	network = list("MiniSat")
 	},
+/turf/environment/space,
+/area/space)
+"jHh" = (
+/obj/effect/landmark/late_party/deserter,
 /turf/environment/space,
 /area/space)
 "jHm" = (
@@ -52408,7 +52416,7 @@ gay
 gay
 gay
 gay
-gay
+jHh
 gEx
 aPn
 gay
@@ -52665,7 +52673,7 @@ gay
 gay
 gay
 gay
-gay
+jHh
 gEx
 gEx
 gay
@@ -52923,7 +52931,7 @@ gay
 gay
 gay
 gay
-gay
+jHh
 gay
 gay
 gay
@@ -62083,8 +62091,8 @@ gay
 gay
 gay
 gay
-gay
-gay
+byu
+byu
 gay
 gay
 gay
@@ -62340,8 +62348,8 @@ gay
 gay
 gay
 gay
-gay
-gay
+byu
+byu
 gay
 gay
 gay
@@ -62597,8 +62605,8 @@ gay
 gay
 gay
 gay
-gay
-gay
+byu
+byu
 gay
 gay
 gay
@@ -62855,7 +62863,7 @@ gay
 gay
 gay
 gay
-gay
+byu
 gay
 gay
 gay

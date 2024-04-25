@@ -71,3 +71,8 @@
 	icon_state = "floor"
 	nitrogen = 103.984
 	oxygen = 0
+
+/turf/simulated/shuttle/floor/fake_vox
+	name = "floor"
+	icon = 'icons/locations/shuttles/vox_shuttle.dmi'
+	icon_state = "floor"

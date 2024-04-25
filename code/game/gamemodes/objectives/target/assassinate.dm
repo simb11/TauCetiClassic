@@ -21,3 +21,15 @@
 				return OBJECTIVE_WIN
 			return OBJECTIVE_LOSS
 	return OBJECTIVE_WIN
+
+/datum/objective/target/assassinate_nt_inspector/format_explanation()
+	return "Assassinate NT inspector."
+
+/datum/objective/target/assassinate_nt_inspector/check_completion()
+	for(var/mob/living/carbon/human/H in global.human_list)
+		if((HAS_TRAIT(H, TRAIT_NT_INSPECTOR)) && (H.stat == DEAD))
+			return OBJECTIVE_WIN
+		else
+			continue
+
+	return OBJECTIVE_WIN

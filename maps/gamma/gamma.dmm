@@ -119649,6 +119649,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/station/maintenance/brigright)
+"xnT" = (
+/obj/effect/landmark/late_party/prisoner,
+/turf/environment/space,
+/area/space)
 "xon" = (
 /obj/structure/table,
 /obj/effect/decal/turf_decal/alpha/gray{
@@ -120277,6 +120281,10 @@
 	icon_state = "darkbluefull"
 	},
 /area/station/bridge)
+"xtX" = (
+/obj/effect/landmark/late_party/deserter,
+/turf/environment/space,
+/area/space)
 "xut" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -153903,8 +153911,8 @@ plf
 plf
 plf
 plf
-plf
-plf
+xnT
+xnT
 plf
 plf
 lgc
@@ -154160,8 +154168,8 @@ plf
 plf
 plf
 plf
-plf
-plf
+xnT
+xnT
 plf
 plf
 goK
@@ -154417,8 +154425,8 @@ plf
 plf
 plf
 plf
-plf
-plf
+xnT
+xnT
 plf
 plf
 goK
@@ -154675,7 +154683,7 @@ plf
 plf
 plf
 plf
-plf
+xnT
 plf
 plf
 plf
@@ -173139,7 +173147,7 @@ plf
 kHU
 plf
 pka
-plf
+xtX
 plf
 plf
 plf
@@ -173396,7 +173404,7 @@ dzB
 pVb
 kHU
 pka
-plf
+xtX
 plf
 plf
 plf
@@ -173653,7 +173661,7 @@ plf
 kHU
 plf
 pka
-plf
+xtX
 plf
 plf
 plf

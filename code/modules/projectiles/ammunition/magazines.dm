@@ -42,6 +42,11 @@
 	caliber = "38"
 	max_ammo = 6
 
+/obj/item/ammo_box/magazine/internal/cylinder/heavy_rev
+	ammo_type = /obj/item/ammo_casing/a44
+	caliber = "44"
+	max_ammo = 6
+
 /obj/item/ammo_box/magazine/internal/shot
 	name = "shotgun internal magazine"
 	desc = "О боже, этого не должно было здесь быть!"
@@ -594,3 +599,24 @@
 	icon_state = "38"
 	ammo_type = /obj/item/ammo_casing/c45r
 	max_ammo = 6
+
+/obj/item/ammo_box/speedloader/a44
+	name = "speedloader (.44)"
+	desc = "Спидлоадер под 44-й калибр."
+	caliber = "44"
+	icon_state = "38"
+	ammo_type = /obj/item/ammo_casing/a44
+	max_ammo = 6
+
+/obj/item/ammo_box/magazine/supb
+	name = "SUP-B magazine (.22 lr)"
+	icon_state = "supb_mag"
+	origin_tech = "combat=2"
+	ammo_type = /obj/item/ammo_casing/a22lr
+	caliber = ".22"
+	max_ammo = 16
+	overlay = "supb-mag"
+
+/obj/item/ammo_box/magazine/supb/update_icon()
+	..()
+	icon_state = "[initial(icon_state)]-[round(ammo_count(),2)]"

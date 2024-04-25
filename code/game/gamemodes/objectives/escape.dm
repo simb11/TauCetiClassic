@@ -36,3 +36,6 @@
 		return OBJECTIVE_WIN
 	else
 		return OBJECTIVE_LOSS
+
+/datum/objective/escape/nt_inspector
+	explanation_text = "Conduct a inspection of the station, then wait until the end of the shift and return to the CentCom."

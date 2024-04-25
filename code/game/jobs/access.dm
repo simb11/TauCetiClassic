@@ -552,7 +552,9 @@
 /proc/get_all_misc_job_icons() //Use for all misc and custom job hud icons if you ever need one!
 	return list("Prisoner",
 				"Marine",
-				"Marine Squad Leader")
+				"Marine Squad Leader",
+				"Military Police",
+				"Military Police Squad Leader")
 
 /obj/proc/GetJobName() //Used in secHUD icon generation
 	if (!istype(src, /obj/item/device/pda) && !istype(src,/obj/item/weapon/card/id))

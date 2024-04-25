@@ -71929,6 +71929,10 @@
 	icon_state = "neutralcorner"
 	},
 /area/station/hallway/primary/central)
+"fFu" = (
+/obj/effect/landmark/late_party/prisoner,
+/turf/environment/space,
+/area/space)
 "fFV" = (
 /turf/simulated/shuttle/floor/cargo{
 	icon_state = "2,5"
@@ -77416,6 +77420,10 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/simulated/floor/plating,
 /area/station/maintenance/medbay)
+"loU" = (
+/obj/effect/landmark/late_party/deserter,
+/turf/environment/space,
+/area/space)
 "loV" = (
 /obj/structure/object_wall/cargo{
 	icon_state = "9,0"
@@ -105303,8 +105311,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+fFu
+fFu
 aaa
 aaa
 aaa
@@ -105560,8 +105568,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+fFu
+fFu
 aaa
 aaa
 aaa
@@ -105817,8 +105825,8 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
+fFu
+fFu
 aaa
 aaa
 aaa
@@ -106075,7 +106083,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+fFu
 aaa
 aaa
 aaa
@@ -137293,7 +137301,7 @@ aaa
 aah
 aaa
 cAd
-aaa
+loU
 aaa
 aaa
 aaa
@@ -137550,7 +137558,7 @@ cDK
 cDZ
 aah
 cAd
-aaa
+loU
 aaa
 aaa
 aaa
@@ -137807,7 +137815,7 @@ aaa
 aah
 aaa
 cAd
-aaa
+loU
 aaa
 aaa
 aaa

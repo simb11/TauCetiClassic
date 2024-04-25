@@ -115,6 +115,11 @@
 	caliber = "a762"
 	projectile_type = /obj/item/projectile/bullet/a762
 
+/obj/item/ammo_casing/a44
+	desc = "Патрон пули калибра .44."
+	caliber = "44"
+	projectile_type = /obj/item/projectile/bullet/a762
+
 /obj/item/ammo_casing/a145
 	desc = "Патрон пули 14,5мм."
 	icon_state = "lcasing"
@@ -235,4 +240,9 @@
 	desc = "Патрон от пули калибра 10х24."
 	caliber = "10x24"
 	icon_state = "casing_1024"
+	projectile_type = /obj/item/projectile/bullet/pulserifle
+
+/obj/item/ammo_casing/a22lr
+	desc = "Патрон от пули калибра .22 lr."
+	caliber = ".22"
 	projectile_type = /obj/item/projectile/bullet/pulserifle

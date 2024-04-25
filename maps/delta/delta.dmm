@@ -49411,6 +49411,10 @@
 /obj/structure/grille,
 /turf/simulated/wall/r_wall,
 /area/station/engineering/atmos)
+"jXY" = (
+/obj/effect/landmark/late_party/deserter,
+/turf/environment/space,
+/area/space)
 "jYb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -113119,6 +113123,10 @@
 	},
 /turf/simulated/floor,
 /area/station/engineering/atmos)
+"yeh" = (
+/obj/effect/landmark/late_party/prisoner,
+/turf/environment/space,
+/area/space)
 "yel" = (
 /obj/structure/stool/bed/chair{
 	dir = 8
@@ -144812,8 +144820,8 @@ plf
 plf
 plf
 plf
-plf
-plf
+yeh
+yeh
 plf
 plf
 plf
@@ -145069,8 +145077,8 @@ plf
 plf
 plf
 plf
-plf
-plf
+yeh
+yeh
 plf
 plf
 plf
@@ -145326,8 +145334,8 @@ plf
 plf
 plf
 plf
-plf
-plf
+yeh
+yeh
 plf
 plf
 plf
@@ -145584,7 +145592,7 @@ plf
 plf
 plf
 plf
-plf
+yeh
 plf
 plf
 plf
@@ -169910,7 +169918,7 @@ plf
 kHU
 plf
 lgc
-plf
+jXY
 plf
 plf
 plf
@@ -170167,7 +170175,7 @@ tlq
 oBY
 kHU
 lgc
-plf
+jXY
 plf
 plf
 plf
@@ -170424,7 +170432,7 @@ plf
 kHU
 plf
 kHU
-plf
+jXY
 plf
 plf
 plf

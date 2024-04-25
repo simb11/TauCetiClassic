@@ -239,6 +239,8 @@
 
 #define isanyblob(H) isrolebytype(/datum/role/blob_overmind, H)
 
+#define isdeserter(H) isrolebytype(/datum/role/late_party_member/deserter, H)
+
 // BLOB
 
 #define isblob(A) (istype(A, /obj/structure/blob))
