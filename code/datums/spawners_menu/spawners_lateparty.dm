@@ -103,7 +103,7 @@
 /datum/late_party
 	var/name
 	var/list/datum/late_party_member/members = list() //members of lateparty (/datum/late_party_member)
-	var/req_players = 0                               //number of players for party choose
+	var/req_players = 20                              //number of players for party choose
 	var/req_security = 0                              //number of security or command roles to choose the party
 	var/req_command = 0
 	var/already_used = FALSE                          //was it already in the round?
@@ -127,6 +127,8 @@
 //Communists!
 /datum/late_party/commy
 	name = "Отряд СССП"
+	req_security = 3
+	req_command = 1
 	members = list(
 	/datum/late_party_member/soviet_soldier,
 	/datum/late_party_member/soviet_soldier,
@@ -158,6 +160,7 @@
 //Raiders!
 /datum/late_party/vox
 	name = "Воксы-налётчики"
+	req_security = 3
 	members = list(
 	/datum/late_party_member/vox,
 	/datum/late_party_member/vox,
@@ -209,6 +212,7 @@
 //Pirates!
 /datum/late_party/pirates
 	name = "Пираты"
+	req_security = 3
 	members = list(
 	/datum/late_party_member/pirate,
 	/datum/late_party_member/pirate,
@@ -238,6 +242,7 @@
 //Prisoners!
 /datum/late_party/prisoners
 	name = "Сбежавшие заключённые"
+	req_security = 3
 	members = list(
 	/datum/late_party_member/prisoner,
 	/datum/late_party_member/prisoner,
@@ -311,6 +316,7 @@
 //inspection
 /datum/late_party/inspection
 	name = "Инспекция"
+	req_command = 1
 	members = list(
 	/datum/late_party_member/assassin,
 	/datum/late_party_member/assassin,
