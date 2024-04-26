@@ -207,8 +207,6 @@
 	H.regenerate_icons()
 
 
-
-
 //Pirates!
 /datum/late_party/pirates
 	name = "Пираты"
