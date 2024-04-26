@@ -266,4 +266,5 @@
 	desc = "\"Я знаю, о чём ты сейчас думаешь. Выстрелил он шесть раз, или только пять? Честно говоря, в этой суматохе я и сам сбился со счёта. Но начнём с того, что это «Магнум» 44-го калибра, самый убойный револьвер в галактике, и он может подчистую снести тебе башку. Теперь ты должен задать себе один вопрос: «Повезёт ли мне?». Ну, повезёт ли, подонок?\""
 	icon_state = "heavy_revolver"
 	initial_mag = /obj/item/ammo_box/magazine/internal/cylinder/heavy_rev
+	two_hand_weapon = DESIRABLE_TWOHAND
 	fire_sound = 'sound/weapons/guns/gunshot_magnum44.ogg'
