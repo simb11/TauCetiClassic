@@ -32,6 +32,9 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 	pierce_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
 
+/obj/item/clothing/suit/armor/vest/fullbody/military_police
+	icon_state = "armor_fullbody_mp"
+
 /obj/item/clothing/suit/armor/vest/fullbody/psy_robe
 	name = "purple robes"
 	cases = list("пурпурная роба", "пурпурной робы", "пурпурной робе", "пурпурную робу", "пурпурной робой", "пурпурной робе")

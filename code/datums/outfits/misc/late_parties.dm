@@ -195,7 +195,7 @@
 /datum/outfit/late_party/military_police
 	name = "Late Party: Military Police"
 	uniform = /obj/item/clothing/under/tactical/marinad
-	suit = /obj/item/clothing/suit/marinad
+	suit = /obj/item/clothing/suit/armor/vest/fullbody/military_police
 	suit_store = /obj/item/weapon/gun/projectile/automatic/l13
 	head = /obj/item/clothing/head/helmet/tactical/marinad
 	glasses = /obj/item/clothing/glasses/sunglasses/hud/sechud/tactical

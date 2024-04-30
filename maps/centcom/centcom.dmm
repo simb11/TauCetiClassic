@@ -28169,6 +28169,7 @@
 /area/centcom/holding)
 "kAc" = (
 /obj/structure/reagent_dispensers/water_cooler,
+/obj/item/weapon/storage/box/cups,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "blackcorner"
@@ -29293,11 +29294,10 @@
 /area/custom/pirates_base)
 "mBK" = (
 /obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/food/drinks/coffee,
-/obj/item/weapon/reagent_containers/food/drinks/coffee,
-/obj/item/weapon/reagent_containers/food/drinks/coffee,
-/obj/item/weapon/reagent_containers/food/drinks/coffee,
-/obj/item/weapon/reagent_containers/food/drinks/coffee,
+/obj/item/weapon/storage/box/PDAs{
+	pixel_x = 4;
+	pixel_y = 4
+	},
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "black"
@@ -31943,9 +31943,6 @@
 /obj/machinery/computer/security/bodycam{
 	pixel_y = 2;
 	req_one_access = list(150)
-	},
-/obj/item/toy/crayon/chalk{
-	pixel_x = -10
 	},
 /turf/simulated/floor{
 	icon_state = "black"
