@@ -197,13 +197,13 @@
 	uniform = /obj/item/clothing/under/tactical/marinad
 	suit = /obj/item/clothing/suit/armor/vest/fullbody/military_police
 	suit_store = /obj/item/weapon/gun/projectile/automatic/l13
-	head = /obj/item/clothing/head/helmet/tactical/marinad
+	head = /obj/item/clothing/head/helmet/tactical/marinad/leader
 	glasses = /obj/item/clothing/glasses/sunglasses/hud/sechud/tactical
 	gloves = /obj/item/clothing/gloves/security/marinad
 	belt = /obj/item/weapon/storage/belt/security/tactical/military_police
 	shoes = /obj/item/clothing/shoes/boots
 	l_ear = /obj/item/device/radio/headset/headset_sec/marinad
-	back = /obj/item/weapon/storage/backpack/dufflebag/marinad
+	back = /obj/item/weapon/storage/backpack/security
 
 	id = /obj/item/weapon/card/id
 
