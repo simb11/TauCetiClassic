@@ -28740,6 +28740,9 @@
 /area/centcom/holding)
 "lzy" = (
 /obj/structure/droppod/Legitimate,
+/obj/effect/decal/turf_decal/alpha/red{
+	icon_state = "box_white"
+	},
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
@@ -31081,10 +31084,6 @@
 	icon_state = "brown"
 	},
 /area/velocity)
-"qeQ" = (
-/obj/machinery/media/jukebox/syndi,
-/turf/simulated/shuttle/floor/fake_vox,
-/area/custom/pirates_base)
 "qeV" = (
 /obj/effect/decal/turf_decal/set_damaged,
 /turf/simulated/floor{
@@ -61995,7 +61994,7 @@ grI
 pre
 xBR
 tkq
-qeQ
+gqC
 hvQ
 ieE
 bpH
@@ -69446,7 +69445,7 @@ wyk
 wyv
 oLc
 apv
-ukp
+apv
 apv
 ukp
 apv
@@ -69962,7 +69961,7 @@ clp
 apv
 apv
 apv
-apv
+ukp
 apv
 oLc
 aaM
@@ -70474,7 +70473,7 @@ wyk
 udQ
 oLc
 apv
-ukp
+apv
 apv
 ukp
 apv
