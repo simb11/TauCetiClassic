@@ -223,13 +223,13 @@
 	sleep(10 SECONDS) // signals are called async
 	var/datum/faction/responders/pirates/P = find_faction_by_type(/datum/faction/responders/pirates)
 	var/datum/faction/late_party/pirate/L = find_faction_by_type(/datum/faction/late_party/pirate)
-	if((!isnull(P) && !P) || (!isnull(L) && !L))
-		return
 
 	var/obj/O = target_type
 	if(!initial(O.price))
 		return
 
-	P.booty += initial(O.price)
-	L.booty += initial(O.price)
+	if(!isnull(P))
+		P.booty += initial(O.price)
+	if(!isnull(L))
+		L.booty += initial(O.price)
 	to_chat(user, "Plundered [initial(O.price)] doubloons!")

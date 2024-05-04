@@ -108,3 +108,17 @@
 	dynamic_lighting = TRUE
 	is_force_ambience = TRUE
 	ambience = list('sound/ambience/pirate_base.ogg')
+
+/area/custom/soviets_unit
+	name = "USSP Military Unit"
+	icon_state = "syndie-ship"
+	requires_power = FALSE
+	dynamic_lighting = TRUE
+	looped_ambience = 'sound/ambience/loop_armory.ogg'
+
+/area/custom/assassins_base
+	name = "Mercenary Operations Base \"Foxtrot\""
+	icon_state = "syndie-ship"
+	requires_power = FALSE
+	dynamic_lighting = TRUE
+	looped_ambience = 'sound/ambience/loop_nuke_ops.ogg'

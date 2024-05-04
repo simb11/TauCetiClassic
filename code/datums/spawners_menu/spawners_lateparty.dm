@@ -84,11 +84,12 @@
 	else
 		member.set_appearance(H)
 
-	var/turf/T = pick(landmarks_list[member.spawnloc])
-	H.loc = get_turf(T)
 	H.key = C.key
+	H.forceMove(pick(landmarks_list[member.spawnloc]).loc)
+	show_location_blurb(C)
 
 	add_faction_member(F, H, FALSE, TRUE)
+
 	H.equipOutfit(member.outfit)
 	if(member.fluff_text)
 		to_chat(H, "[member.fluff_text]")
@@ -354,4 +355,4 @@
 	role_alert = 'sound/antag/tatoralert.ogg'
 
 /datum/late_party_member/assassin/New()
-	fluff_text = "<span class='danger'>Ты - наёмный убийца. Скоро на [station_name_ru()] прилетит представитель НТ. Твоему отряду поручена задача незаметно <B>убить его</B></span>."
+	fluff_text = "<span class='danger'>Ты - наёмный убийца. Скоро на [station_name_ru()] прилетит представитель НТ. Твоему отряду поручена задача незаметно убить его/span>."

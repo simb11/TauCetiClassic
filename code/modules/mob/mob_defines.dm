@@ -172,7 +172,7 @@
 
 	var/status_flags = MOB_STATUS_FLAGS_DEFAULT // bitflags defining which status effects can be inflicted (replaces canweaken, canstun, etc)
 
-	var/area/lastarea = null
+	var/area/lastarea = /area/start
 
 	var/has_unlimited_silicon_privilege = 0 // Can they interact with station electronics
 

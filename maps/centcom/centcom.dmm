@@ -6470,7 +6470,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "apt" = (
 /obj/structure/object_wall/vox{
 	icon_state = "16,5";
@@ -6489,7 +6489,7 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "apw" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -6679,7 +6679,7 @@
 /area/centcom/specops)
 "apR" = (
 /turf/simulated/wall/red,
-/area/centcom)
+/area/custom/soviets_unit)
 "apT" = (
 /obj/structure/toilet{
 	pixel_y = 8
@@ -6861,7 +6861,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "aqj" = (
 /obj/item/device/radio/intercom{
 	desc = "Talk through this. Evilly";
@@ -7076,7 +7076,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "aqI" = (
 /obj/structure/torch_holder/magic{
 	dir = 1
@@ -7445,7 +7445,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "arv" = (
 /obj/structure/object_wall/vox{
 	icon_state = "13,3"
@@ -11203,7 +11203,7 @@
 /turf/simulated/floor{
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "azj" = (
 /obj/structure/object_wall/vox/internal{
 	icon_state = "6,0"
@@ -13570,7 +13570,7 @@
 	dir = 10;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "aEz" = (
 /turf/unsimulated/wall,
 /area/centcom)
@@ -22430,7 +22430,7 @@
 	dir = 4;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "bry" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/kitchenknife/ritual,
@@ -22831,7 +22831,7 @@
 /turf/simulated/floor{
 	icon_state = "blackchoco"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "bRb" = (
 /obj/machinery/door/airlock/external{
 	dir = 4;
@@ -23026,7 +23026,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "cfz" = (
 /obj/structure/bookcase,
 /obj/item/weapon/book/manual/wiki/possible_threats,
@@ -23036,7 +23036,7 @@
 	dir = 4;
 	icon_state = "blackcorner"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "cfK" = (
 /obj/machinery/door/airlock/centcom,
 /turf/simulated/floor/grid_floor,
@@ -23099,6 +23099,11 @@
 	icon_state = "brown"
 	},
 /area/velocity)
+"cjz" = (
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/custom/soviets_unit)
 "ckb" = (
 /obj/item/weapon/flora/random,
 /obj/structure/centcom_barrier,
@@ -23117,7 +23122,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "cmb" = (
 /obj/item/weapon/flora/random,
 /obj/machinery/door_control{
@@ -23142,7 +23147,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "cob" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	icon_state = "bot"
@@ -23838,7 +23843,7 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "drb" = (
 /obj/machinery/door/poddoor{
 	density = 0;
@@ -23975,7 +23980,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "dBb" = (
 /obj/structure/sign/directions/velocity{
 	icon_state = "tablo02"
@@ -24270,7 +24275,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "dYb" = (
 /obj/machinery/door/poddoor{
 	density = 0;
@@ -24456,7 +24461,7 @@
 	dir = 8;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "emb" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "velocity_8"
@@ -24529,7 +24534,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "eub" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "velocity_6"
@@ -24749,7 +24754,7 @@
 	dir = 4;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "eNb" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "warn"
@@ -24832,7 +24837,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "eVb" = (
 /obj/structure/object_wall/velocity{
 	dir = 8;
@@ -24941,7 +24946,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "ffb" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	dir = 1;
@@ -25224,7 +25229,7 @@
 	dir = 10;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "fFb" = (
 /obj/structure/sign/tablo{
 	icon_state = "parking"
@@ -25551,7 +25556,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "ghb" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/gun/energy,
@@ -25712,7 +25717,7 @@
 	dir = 8;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "gsb" = (
 /turf/unsimulated/floor{
 	dir = 4;
@@ -26105,7 +26110,7 @@
 	dir = 1;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "gZb" = (
 /turf/unsimulated/floor{
 	dir = 1;
@@ -26310,7 +26315,7 @@
 "hqc" = (
 /obj/structure/window/fulltile/reinforced/indestructible,
 /turf/simulated/floor/plating,
-/area/centcom)
+/area/custom/soviets_unit)
 "hrb" = (
 /obj/structure/object_wall/standart{
 	icon_state = "swall_f5"
@@ -26415,7 +26420,7 @@
 	dir = 6;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "hyb" = (
 /turf/unsimulated/floor{
 	icon_state = "blue"
@@ -26443,7 +26448,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "hBb" = (
 /turf/unsimulated/floor{
 	dir = 4;
@@ -26483,7 +26488,7 @@
 	dir = 6;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "hFb" = (
 /obj/structure/object_wall/standart{
 	icon_state = "swall11"
@@ -26503,7 +26508,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "hHb" = (
 /obj/structure/sign/mark{
 	icon_state = "rrt"
@@ -26550,7 +26555,7 @@
 	dir = 9;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "hMb" = (
 /obj/structure/object_wall/standart{
 	icon_state = "swall3"
@@ -26606,7 +26611,7 @@
 /turf/simulated/floor{
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "hRb" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "warn"
@@ -26644,12 +26649,12 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "hTm" = (
 /turf/simulated/floor{
 	icon_state = "blackchoco"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "hUb" = (
 /obj/structure/object_wall/standart{
 	icon_state = "swall_f6"
@@ -26832,7 +26837,7 @@
 	dir = 1;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "imb" = (
 /turf/unsimulated/floor{
 	dir = 4;
@@ -26890,7 +26895,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "iqb" = (
 /turf/unsimulated/floor{
 	dir = 8;
@@ -27049,7 +27054,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "iLb" = (
 /obj/effect/decal/turf_decal/alpha/yellow{
 	dir = 8;
@@ -27157,7 +27162,7 @@
 	dir = 8;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "iVb" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -27180,7 +27185,7 @@
 	dir = 9;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "iWb" = (
 /obj/machinery/telecomms/receiver/preset_cent,
 /obj/effect/decal/turf_decal/alpha/gray{
@@ -27253,7 +27258,7 @@
 	dir = 8;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "jab" = (
 /obj/structure/window/thin/reinforced{
 	dir = 1;
@@ -27352,7 +27357,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "jjb" = (
 /turf/unsimulated/floor{
 	icon_state = "dark"
@@ -27486,7 +27491,7 @@
 "jtd" = (
 /obj/structure/flora/grass/brown,
 /turf/unsimulated/floor/snow,
-/area/centcom)
+/area/custom/soviets_unit)
 "jub" = (
 /obj/machinery/computer/rdservercontrol{
 	badmin = 1;
@@ -27721,7 +27726,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "jQb" = (
 /obj/structure/mineral_door/wood,
 /turf/unsimulated/floor{
@@ -27838,7 +27843,7 @@
 	dir = 6;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "kab" = (
 /turf/unsimulated/floor{
 	dir = 1;
@@ -27950,7 +27955,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "kib" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
@@ -28039,7 +28044,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "kqb" = (
 /turf/unsimulated/floor{
 	icon_state = "vaultfull"
@@ -28077,7 +28082,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "kss" = (
 /obj/structure/rack,
 /obj/item/clothing/suit/space/globose/black/pirate,
@@ -28098,7 +28103,7 @@
 	dir = 4;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "kvb" = (
 /obj/machinery/implantchair,
 /turf/unsimulated/floor{
@@ -28174,7 +28179,7 @@
 	dir = 8;
 	icon_state = "blackcorner"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "kBb" = (
 /obj/structure/closet/lasertag/red,
 /turf/unsimulated/floor{
@@ -28255,7 +28260,7 @@
 	dir = 1;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "kIb" = (
 /obj/effect/decal/turf_decal{
 	dir = 1;
@@ -28296,12 +28301,17 @@
 	icon_state = "vaultfull"
 	},
 /area/centcom/holding)
+"kMA" = (
+/turf/simulated/floor{
+	icon_state = "darkredcorners"
+	},
+/area/custom/soviets_unit)
 "kMX" = (
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "kNb" = (
 /obj/structure/table,
 /obj/item/weapon/reagent_containers/food/drinks/shaker,
@@ -28360,7 +28370,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "kTb" = (
 /turf/unsimulated/floor{
 	dir = 1;
@@ -28403,7 +28413,7 @@
 	dir = 5;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "kVY" = (
 /obj/effect/decal/turf_decal{
 	dir = 1;
@@ -28546,7 +28556,7 @@
 /turf/simulated/floor{
 	icon_state = "blackchoco"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "ljb" = (
 /turf/unsimulated/floor{
 	dir = 8;
@@ -28733,7 +28743,7 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "lAb" = (
 /obj/machinery/computer/arcade,
 /obj/machinery/light,
@@ -28785,6 +28795,11 @@
 	icon_state = "green"
 	},
 /area/centcom/control)
+"lGd" = (
+/turf/simulated/floor{
+	icon_state = "darkredfull"
+	},
+/area/custom/soviets_unit)
 "lHb" = (
 /turf/unsimulated/floor{
 	dir = 5;
@@ -28804,7 +28819,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "lKb" = (
 /turf/unsimulated/floor{
 	icon_state = "vaultfull"
@@ -28830,7 +28845,7 @@
 	dir = 4;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "lLb" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -28884,7 +28899,7 @@
 	dir = 8;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "lPb" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -28935,6 +28950,11 @@
 	icon_state = "greencorner"
 	},
 /area/centcom/control)
+"lRg" = (
+/turf/simulated/floor{
+	icon_state = "dark"
+	},
+/area/custom/assassins_base)
 "lSb" = (
 /obj/structure/sign/mark/symbol_b,
 /turf/unsimulated/floor{
@@ -28956,7 +28976,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "lUq" = (
 /obj/structure/sign/poster/official/no_erp{
 	pixel_x = 31
@@ -29080,7 +29100,7 @@
 	dir = 9;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "mib" = (
 /obj/structure/window/thin/reinforced{
 	dir = 4
@@ -29290,7 +29310,9 @@
 /obj/structure/object_wall/standart{
 	icon_state = "wall3"
 	},
-/turf/environment/space,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
 /area/custom/pirates_base)
 "mBK" = (
 /obj/structure/table/glass,
@@ -29302,7 +29324,7 @@
 	dir = 8;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "mCb" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -29310,7 +29332,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "mCB" = (
 /obj/structure/dresser,
 /turf/simulated/shuttle/floor/fake_vox,
@@ -29342,7 +29364,7 @@
 /area/centcom/tdome/tdomeobserve)
 "mFv" = (
 /turf/unsimulated/floor/snow,
-/area/centcom)
+/area/custom/soviets_unit)
 "mGb" = (
 /obj/random/vending/snack,
 /turf/unsimulated/floor{
@@ -29474,7 +29496,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "mUb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,21"
@@ -29501,7 +29523,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "mXb" = (
 /obj/structure/sign/mark/symbol_b{
 	icon_state = "E"
@@ -29521,7 +29543,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "mYv" = (
 /obj/structure/mirror{
 	pixel_y = 32
@@ -29571,7 +29593,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "neb" = (
 /obj/structure/sign/mark/symbol_b{
 	icon_state = "E"
@@ -29667,7 +29689,7 @@
 /turf/simulated/floor{
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "npb" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/stool/bed/chair/metal{
@@ -29724,7 +29746,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "ntb" = (
 /obj/structure/stool/bed/chair/metal,
 /turf/unsimulated/floor{
@@ -29871,6 +29893,14 @@
 	icon_state = "redyellowfull"
 	},
 /area/centcom/tdome/tdomeadmin)
+"nEj" = (
+/obj/machinery/door/airlock/centcom{
+	dir = 4
+	},
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
+/area/custom/pirates_base)
 "nFb" = (
 /obj/structure/table,
 /obj/item/weapon/storage/toolbox/electrical,
@@ -30306,7 +30336,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "oBb" = (
 /obj/machinery/light{
 	dir = 4
@@ -30335,7 +30365,7 @@
 	dir = 1;
 	icon_state = "blackcorner"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "oEb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,13"
@@ -30395,7 +30425,7 @@
 /area/shuttle/escape/centcom)
 "oLc" = (
 /turf/simulated/wall/r_wall/beige,
-/area/centcom)
+/area/custom/assassins_base)
 "oMb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "14,13"
@@ -30442,7 +30472,7 @@
 /turf/simulated/floor{
 	icon_state = "blackcorner"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "oPb" = (
 /obj/structure/stool/bed/chair/schair/wagon/red{
 	dir = 4
@@ -30505,7 +30535,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "oUX" = (
 /obj/structure/sign/warning/securearea{
 	pixel_x = 32
@@ -30596,7 +30626,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "pfb" = (
 /obj/effect/decal/turf_decal{
 	dir = 4;
@@ -30718,7 +30748,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "pqb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,23";
@@ -30737,7 +30767,9 @@
 /obj/structure/object_wall/standart{
 	icon_state = "wall3"
 	},
-/turf/environment/space,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
 /area/custom/pirates_base)
 "psb" = (
 /obj/structure/object_wall/evac{
@@ -30764,7 +30796,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "pvb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "10,23";
@@ -30797,7 +30829,7 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "pAb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "11,10"
@@ -30812,7 +30844,7 @@
 /turf/simulated/floor{
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "pCb" = (
 /obj/machinery/door/airlock/external{
 	dir = 4;
@@ -30832,7 +30864,7 @@
 /turf/simulated/floor{
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "pFb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,9"
@@ -30911,7 +30943,7 @@
 /area/centcom/evac)
 "pMB" = (
 /turf/simulated/wall/r_wall/yellow,
-/area/centcom)
+/area/custom/assassins_base)
 "pNb" = (
 /obj/machinery/sleeper{
 	dir = 4
@@ -30952,7 +30984,7 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "pUb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "5,1";
@@ -31011,7 +31043,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "pYZ" = (
 /obj/item/weapon/stool,
 /obj/effect/landmark/late_party/pirate,
@@ -31032,7 +31064,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "qcb" = (
 /obj/structure/object_wall/evac{
 	icon_state = "1,20"
@@ -31058,7 +31090,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "qnM" = (
 /obj/effect/step_trigger/thrower{
 	direction = 4;
@@ -31105,7 +31137,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "qDw" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "synd3,1"
@@ -31113,7 +31145,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "qDT" = (
 /obj/structure/cult/pylon,
 /turf/unsimulated/floor/cult,
@@ -31150,7 +31182,7 @@
 /turf/simulated/floor{
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "qWu" = (
 /obj/structure/chalkboard,
 /turf/simulated/shuttle/floor/fake_vox,
@@ -31162,7 +31194,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "qYj" = (
 /obj/effect/decal/turf_decal{
 	icon_state = "synd1,3"
@@ -31170,7 +31202,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "qYw" = (
 /obj/machinery/vending/snack{
 	name = "Hacked Getmore Chocolate Corp";
@@ -31183,11 +31215,14 @@
 	dir = 5;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "rbc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/grid_floor,
 /area/custom/pirates_base)
+"rgS" = (
+/turf/unsimulated/wall,
+/area/custom/soviets_unit)
 "rkK" = (
 /obj/item/weapon/flora/pottedplant/tropicalfern{
 	pixel_y = 5
@@ -31199,7 +31234,7 @@
 	dir = 8;
 	icon_state = "darkstairs_alone"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "rUV" = (
 /obj/structure/table/reinforced,
 /obj/item/mine{
@@ -31219,7 +31254,13 @@
 	dir = 1;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/assassins_base)
+"rWs" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkredcorners"
+	},
+/area/custom/soviets_unit)
 "rXM" = (
 /obj/item/weapon/flora/random,
 /turf/simulated/shuttle/floor/vox,
@@ -31231,7 +31272,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "saj" = (
 /obj/effect/decal/turf_decal/set_damaged,
 /obj/effect/decal/turf_decal/alpha/yellow{
@@ -31270,7 +31311,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "sjD" = (
 /obj/structure/window/thin/reinforced{
 	dir = 1
@@ -31357,7 +31398,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "sAN" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/storage/box/donkpockets{
@@ -31379,7 +31420,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "sIE" = (
 /obj/structure/window/thin/reinforced{
 	dir = 8
@@ -31388,7 +31429,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "sJQ" = (
 /obj/item/weapon/rack_parts,
 /obj/structure/spider/stickyweb,
@@ -31485,7 +31526,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "tAz" = (
 /obj/machinery/door/airlock/centcom{
 	dir = 4;
@@ -31527,7 +31568,7 @@
 	dir = 5;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "tZp" = (
 /obj/machinery/light/small,
 /obj/structure/closet/crate/trashcart,
@@ -31542,7 +31583,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "uim" = (
 /obj/effect/decal/turf_decal/set_burned,
 /turf/simulated/shuttle/floor/fake_vox,
@@ -31566,7 +31607,9 @@
 /obj/machinery/door/poddoor/shutters/syndi{
 	name = "Exit"
 	},
-/turf/simulated/shuttle/floor/fake_vox,
+/turf/simulated/shuttle/floor/fake_vox{
+	icon_state = "floorplating"
+	},
 /area/custom/pirates_base)
 "ukp" = (
 /obj/effect/decal/turf_decal/alpha/red{
@@ -31576,7 +31619,7 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "usD" = (
 /obj/structure/sign/directions/velocity{
 	dir = 4;
@@ -31617,7 +31660,7 @@
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "uDv" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_y = 32
@@ -31638,7 +31681,7 @@
 	oxygen = 25;
 	temperature = 243
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "uEN" = (
 /obj/effect/step_trigger/teleporter/random{
 	name = "escapeshuttle_leave_noghosts";
@@ -31664,7 +31707,15 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/assassins_base)
+"uLJ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor{
+	icon_state = "cult"
+	},
+/area/custom/soviets_unit)
 "uNk" = (
 /obj/machinery/door/airlock/centcom{
 	dir = 4
@@ -31795,7 +31846,7 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "vAl" = (
 /obj/effect/spawner/aspect/mech/dark_gygax,
 /turf/unsimulated/floor{
@@ -31835,7 +31886,13 @@
 /turf/simulated/floor{
 	icon_state = "cult"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
+"vDg" = (
+/turf/simulated/floor{
+	dir = 8;
+	icon_state = "darkredcorners"
+	},
+/area/custom/assassins_base)
 "vDE" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/box/syndie_kit/merch,
@@ -31858,7 +31915,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "vPa" = (
 /obj/effect/decal/turf_decal{
 	dir = 8;
@@ -31903,7 +31960,7 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "vYm" = (
 /turf/environment/space,
 /area/shuttle/escape_pod6/centcom)
@@ -31947,7 +32004,7 @@
 /turf/simulated/floor{
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "wmN" = (
 /obj/machinery/light{
 	dir = 4
@@ -31959,6 +32016,12 @@
 "wtx" = (
 /turf/simulated/wall/cult/runed/anim,
 /area/custom/cult)
+"wyk" = (
+/turf/simulated/floor{
+	dir = 1;
+	icon_state = "darkred"
+	},
+/area/custom/assassins_base)
 "wyv" = (
 /obj/structure/table/reinforced,
 /obj/item/weapon/storage/box/syringes,
@@ -31970,13 +32033,19 @@
 /turf/simulated/floor{
 	icon_state = "dark"
 	},
-/area/centcom)
+/area/custom/assassins_base)
+"wHw" = (
+/turf/simulated/floor{
+	dir = 4;
+	icon_state = "darkredcorners"
+	},
+/area/custom/assassins_base)
 "wIv" = (
 /obj/effect/decal/turf_decal/set_damaged,
 /turf/simulated/floor{
 	icon_state = "darkredfull"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "wMR" = (
 /obj/structure/table/woodentable,
 /obj/item/weapon/reagent_containers/food/drinks/drinkingglass/kvass{
@@ -31991,7 +32060,7 @@
 /turf/simulated/floor{
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "wRz" = (
 /obj/structure/table/glass{
 	pixel_y = 2
@@ -32071,13 +32140,13 @@
 	dir = 1;
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "xxx" = (
 /turf/simulated/floor{
 	dir = 1;
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "xzP" = (
 /turf/unsimulated/floor{
 	dir = 8;
@@ -32125,7 +32194,7 @@
 	dir = 4;
 	icon_state = "darkredcorners"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "xLi" = (
 /obj/structure/window/thin/reinforced{
 	dir = 1
@@ -32163,7 +32232,7 @@
 /turf/simulated/floor{
 	icon_state = "darkred"
 	},
-/area/centcom)
+/area/custom/soviets_unit)
 "xWI" = (
 /obj/machinery/conveyor_switch{
 	id = "CKLoad"
@@ -32207,7 +32276,7 @@
 /turf/simulated/floor{
 	icon_state = "black"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 "yea" = (
 /turf/unsimulated/floor/cult,
 /area/custom/cult)
@@ -32258,7 +32327,7 @@
 /turf/simulated/floor{
 	icon_state = "blackchoco"
 	},
-/area/centcom)
+/area/custom/assassins_base)
 
 (1,1,1) = {"
 ahG
@@ -61397,10 +61466,10 @@ uNZ
 bhu
 pre
 pre
-mBk
 pre
 pre
-uNk
+pre
+nEj
 pre
 pre
 pre
@@ -63973,9 +64042,9 @@ aaM
 aaM
 apR
 lzy
-apv
-apv
-apv
+cjz
+cjz
+cjz
 lzy
 apR
 aaM
@@ -64229,10 +64298,10 @@ aaM
 aaM
 aaM
 apR
-dqN
-apv
+uLJ
+cjz
 vsy
-apv
+cjz
 vCL
 apR
 aaM
@@ -64477,19 +64546,19 @@ aaM
 aaM
 aaM
 aaM
-aEz
-aEz
-aEz
-aEz
-aEz
-aEz
-aEz
+rgS
+rgS
+rgS
+rgS
+rgS
+rgS
+rgS
 apR
 apR
 lzy
-apv
+cjz
 rnD
-apv
+cjz
 lzy
 apR
 apR
@@ -64734,7 +64803,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 ndS
 ndS
@@ -64991,7 +65060,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 rZW
 ndS
@@ -65248,7 +65317,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 ndS
 ndS
@@ -65505,7 +65574,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 ndS
 qWR
@@ -65762,7 +65831,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 pps
 ndS
 ndS
@@ -65771,7 +65840,7 @@ khc
 uDX
 apR
 cfy
-puz
+kMA
 brm
 brm
 brm
@@ -66019,7 +66088,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 ndS
 pps
@@ -66276,7 +66345,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 khc
 ndS
@@ -66286,7 +66355,7 @@ jtd
 hqc
 mTZ
 wMR
-aru
+lGd
 jiL
 jiL
 xxx
@@ -66533,7 +66602,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 ndS
 ndS
@@ -66790,7 +66859,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 rZW
 khc
@@ -66803,7 +66872,7 @@ kMX
 lOl
 lOl
 lOl
-gYJ
+rWs
 lJR
 apR
 aaM
@@ -67047,7 +67116,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 ndS
 ndS
@@ -67304,7 +67373,7 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 qWR
 pps
@@ -67561,14 +67630,14 @@ aaM
 aaM
 aaM
 aaM
-aEz
+rgS
 ndS
 ndS
 ndS
 ndS
 ndS
 ndS
-aEz
+rgS
 aaM
 aaM
 aaM
@@ -67818,14 +67887,14 @@ aaM
 aaM
 aaM
 aaM
-aEz
-aEz
-aEz
-aEz
-aEz
-aEz
-aEz
-aEz
+rgS
+rgS
+rgS
+rgS
+rgS
+rgS
+rgS
+rgS
 aaM
 aaM
 aaM
@@ -69116,7 +69185,7 @@ puz
 hxJ
 aru
 kVo
-eMe
+wHw
 sCp
 oLc
 apv
@@ -69373,7 +69442,7 @@ pEH
 aru
 aru
 aru
-xxx
+wyk
 wyv
 oLc
 apv
@@ -69883,12 +69952,12 @@ hTm
 hTm
 hTm
 clp
-ipY
+lRg
 uBc
 oAW
 feY
 aru
-xxx
+wyk
 clp
 apv
 apv
@@ -70401,7 +70470,7 @@ hQi
 aru
 aru
 aru
-xxx
+wyk
 udQ
 oLc
 apv
@@ -70654,7 +70723,7 @@ iUD
 elV
 oCj
 pMB
-kMX
+vDg
 aEx
 aru
 mhr
