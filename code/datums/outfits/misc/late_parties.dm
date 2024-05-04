@@ -96,6 +96,8 @@
 	var/obj/item/weapon/card/id/syndicate/W = H.wear_id
 	W.assignment = "Pirate"
 	W.assign(H.real_name)
+	H.add_language(LANGUAGE_GUTTER)
+	H.forced_language = LANGUAGE_GUTTER
 
 
 /datum/outfit/late_party/pirate/leader
@@ -110,6 +112,8 @@
 	var/obj/item/weapon/card/id/syndicate/W = H.wear_id
 	W.assignment = "Pirate Captain"
 	W.assign(H.real_name)
+	H.add_language(LANGUAGE_GUTTER)
+	H.forced_language = LANGUAGE_GUTTER
 
 /obj/item/weapon/storage/pouch/pistol_holster/silenced_pistol
 	startswith = list(/obj/item/weapon/gun/projectile/automatic/pistol/silenced/nonlethal)
@@ -145,6 +149,8 @@
 	W.assign(H.real_name)
 	H.sec_hud_set_ID()
 	W.access = list(access_external_airlocks, access_maint_tunnels)
+	H.add_language(LANGUAGE_GUTTER)
+	H.forced_language = LANGUAGE_GUTTER
 
 //Deserters
 /datum/outfit/late_party/deserter
@@ -386,3 +392,4 @@
 	var/obj/item/weapon/card/id/W = H.wear_id
 	W.assign(H.real_name)
 	to_chat(H, "<span class='italics'>На тебя надет костюм-хамелеон. Используй его.</span>")
+	H.add_language(LANGUAGE_SYCODE)
