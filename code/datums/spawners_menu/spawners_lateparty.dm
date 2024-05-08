@@ -29,13 +29,19 @@
 	if(global.possible_late_parties.len == 0)
 		addtimer(CALLBACK(PROC_REF(pick_late_party)), 5 MINUTE)
 		return
+
 	create_spawners(/datum/spawner/late_party, 0)
+
+	for(var/datum/spawner/late_party/lp_spawner in SSrole_spawners.spawners)
+		lp_spawner.time_for_registration = rand(30 MINUTES, 45 MINUTES)
+		lp_spawner.start_timers()
 
 /datum/spawner/late_party
 	name = "Поздняя Группа"
 	desc = "Вернитесь на станцию в качестве члена одной из поздних групп, например - пиратов или дезертиров!"
 	ranks = list(ROLE_GHOSTLY)
 	priority = 99
+	time_for_registration = 1 MINUTE
 
 	register_only = TRUE
 
@@ -44,7 +50,6 @@
 
 /datum/spawner/late_party/New()
 	late_party_type = pick(global.possible_late_parties)
-	time_for_registration = rand(30 MINUTES, 45 MINUTES)
 	positions = late_party_type.members.len
 	..()
 
@@ -100,11 +105,12 @@
 	if(late_party_type.members.len <= 1)
 		late_party_type.already_used = TRUE
 		late_party_type.after_spawn_lateparty()
+		pick_late_party()
 
 /datum/late_party
 	var/name
 	var/list/datum/late_party_member/members = list() //members of lateparty (/datum/late_party_member)
-	var/req_players = 20                              //number of players for party choose
+	var/req_players = 25                              //number of players for party choose
 	var/req_security = 0                              //number of security or command roles to choose the party
 	var/req_command = 0
 	var/already_used = FALSE                          //was it already in the round?
