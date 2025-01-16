@@ -696,6 +696,11 @@ var/global/list/tourette_bad_words= list(
 			to_chat(src, "<span class='notice'>You feel fit again!</span>")
 			REMOVE_TRAIT(src, TRAIT_FAT, OBESITY_TRAIT)
 			metabolism_factor.RemoveModifier("Fat")
+			if((gender == MALE) || species.flags[HAS_BODY_TYPE_SELECTION])
+				//bodytype = species.default_female_bodytype
+				bodytype = BODY_TYPE_NORMAL
+			else
+				bodytype = species.default_female_bodytype
 			update_body()
 			update_mutations()
 			update_inv_w_uniform()
@@ -706,6 +711,7 @@ var/global/list/tourette_bad_words= list(
 			if(!species.flags[IS_SYNTHETIC] && !species.flags[IS_PLANT] && !species.flags[NO_FAT])
 				ADD_TRAIT(src, TRAIT_FAT, OBESITY_TRAIT)
 				metabolism_factor.AddModifier("Fat", base_additive = -0.3)
+				bodytype = BODY_TYPE_WIDE
 				update_body()
 				update_mutations()
 				update_inv_w_uniform()

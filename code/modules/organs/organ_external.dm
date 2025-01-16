@@ -147,15 +147,10 @@
 /obj/item/organ/external/proc/update_sprite()
 	var/gender = owner ? owner.gender : MALE
 	var/mutations = owner ? owner.mutations : list()
-	var/fat = null
+	var/body_type = owner.bodytype.abbreviation
 	var/g
 	var/pump
-
-	if(owner && HAS_TRAIT(owner, TRAIT_FAT))
-		if(body_zone == BP_CHEST)
-			fat = "fat"
-		else if(species.fat_limb_icons == TRUE && (body_zone in list(BP_GROIN, BP_HEAD, BP_R_ARM, BP_L_ARM, BP_R_LEG, BP_L_LEG)))
-			fat = "fat"
+	//"[body_zone]_[gender]_[bodytype]/[pump]"
 
 	if(body_zone in list(BP_CHEST, BP_GROIN, BP_HEAD))
 		g = (gender == FEMALE ? "f" : "m")
@@ -172,10 +167,10 @@
 		icon_state = body_zone
 	else if (status & ORGAN_MUTATED)
 		icon = species.deform
-		icon_state = "[body_zone][g ? "_[g]" : ""][fat ? "_[fat]" : ""][(pump && !fat) ? "_[pump]" : ""]"
+		icon_state = "[body_zone][g ? "_[g]" : ""][body_type][(pump) ? "_[pump]" : ""]"
 	else
 		icon = species.icobase
-		icon_state = "[body_zone][g ? "_[g]" : ""][fat ? "_[fat]" : ""][(pump && !fat) ? "_[pump]" : ""]"
+		icon_state = "[body_zone][g ? "_[g]" : ""][body_type][(pump) ? "_[pump]" : ""]"
 
 	if(status & ORGAN_DEAD)
 		color = NECROSIS_COLOR_MOD

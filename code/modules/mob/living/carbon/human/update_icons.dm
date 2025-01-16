@@ -1,4 +1,4 @@
-#define BODY_ICON(icon, fat_icon, icon_state) (!fat) ? mutable_appearance(icon, icon_state, -BODY_LAYER) : mutable_appearance(fat_icon, icon_state, -BODY_LAYER)
+#define BODY_ICON(icon, icon_state) mutable_appearance(icon, icon_state, -BODY_LAYER)
 	///////////////////////
 	//UPDATE_ICONS SYSTEM//
 	///////////////////////
@@ -96,7 +96,7 @@ If you have any questions/constructive-comments/bugs-to-report/or have a massivl
 Please contact me on #coderbus IRC. ~Carn x
 */
 
-/obj/item/proc/get_standing_overlay(mob/living/carbon/human/H, def_icon_path, sprite_sheet_slot, layer, bloodied_icon_state = null, icon_state_appendix = null)
+/obj/item/proc/get_standing_overlay(mob/living/carbon/human/H, def_icon_path, sprite_sheet_slot, layer, bloodied_icon_state = null, icon_state_appendix = null, spare_icon_path = null)
 	var/icon_path = def_icon_path
 
 	var/t_state
@@ -122,13 +122,10 @@ Please contact me on #coderbus IRC. ~Carn x
 	if(!("[t_state][icon_state_appendix]" in icon_states(icon_path)))
 		icon_path = def_icon_path
 
-	var/fem = ""
-	if(H.gender == FEMALE && S.gender_limb_icons)
-		if(t_state != null)
-			if("[t_state]_fem" in icon_states(def_icon_path))
-				fem = "_fem"
+	if(!("[t_state][icon_state_appendix]" in icon_states(icon_path)))
+		icon_path = spare_icon_path
 
-	var/mutable_appearance/I = mutable_appearance(icon = icon_path, icon_state = "[t_state][fem][icon_state_appendix]", layer = layer)
+	var/mutable_appearance/I = mutable_appearance(icon = icon_path, icon_state = "[t_state][icon_state_appendix]", layer = layer)
 	I.color = color
 
 	if(dirt_overlay && bloodied_icon_state)
@@ -215,14 +212,14 @@ Please contact me on #coderbus IRC. ~Carn x
 
 	//Underwear
 	if((underwear > 0) && (underwear < 12) && species.flags[HAS_UNDERWEAR])
-		var/mutable_appearance/MA = BODY_ICON('icons/mob/human_underwear.dmi', 'icons/mob/human_underwear_fat.dmi', "underwear[underwear]_[g]_s")
+		var/mutable_appearance/MA = BODY_ICON(bodytype.underwear_sprites, "underwear[underwear]_[g]_s")
 		MA.pixel_x += species.offset_features[OFFSET_UNIFORM][1]
 		MA.pixel_y += species.offset_features[OFFSET_UNIFORM][2]
 		MA = update_height(MA, TRUE)
 		standing += MA
 
 	if((undershirt > 0) && (undershirt < undershirt_t.len) && species.flags[HAS_UNDERWEAR])
-		var/mutable_appearance/MA = BODY_ICON('icons/mob/human_undershirt.dmi', 'icons/mob/human_undershirt_fat.dmi', "undershirt[undershirt]_s_[g]")
+		var/mutable_appearance/MA = BODY_ICON(bodytype.undershirt_sprites, "undershirt[undershirt]_[g]_s")
 		MA.pixel_x += species.offset_features[OFFSET_UNIFORM][1]
 		MA.pixel_y += species.offset_features[OFFSET_UNIFORM][2]
 		MA = update_height(MA, TRUE)
@@ -232,7 +229,7 @@ Please contact me on #coderbus IRC. ~Carn x
 		var/obj/item/organ/external/r_foot = bodyparts_by_name[BP_R_LEG]
 		var/obj/item/organ/external/l_foot = bodyparts_by_name[BP_L_LEG]
 		if(r_foot && !r_foot.is_stump && l_foot && !l_foot.is_stump)
-			var/mutable_appearance/MA = BODY_ICON('icons/mob/human_socks.dmi', 'icons/mob/human_socks_fat.dmi', "socks[socks]_s_[g]")
+			var/mutable_appearance/MA = BODY_ICON(bodytype.socks_sprites, "socks[socks]_s")
 			MA.pixel_x += species.offset_features[OFFSET_SHOES][1]
 			MA.pixel_y += species.offset_features[OFFSET_SHOES][2]
 			MA = update_height(MA, TRUE)
@@ -413,7 +410,6 @@ Please contact me on #coderbus IRC. ~Carn x
 /mob/living/carbon/human/update_inv_w_uniform()
 	remove_standing_overlay(UNIFORM_LAYER)
 
-	var/default_path = 'icons/mob/uniform.dmi'
 	var/uniform_sheet = SPRITE_SHEET_UNIFORM
 	if(isunder(w_uniform))
 		if(client && hud_used && hud_used.hud_shown)
@@ -427,13 +423,12 @@ Please contact me on #coderbus IRC. ~Carn x
 
 		if(HAS_TRAIT(src, TRAIT_FAT))
 			if(U.flags & ONESIZEFITSALL)
-				default_path = 'icons/mob/uniform_fat.dmi'
 				uniform_sheet = SPRITE_SHEET_UNIFORM_FAT
 			else
 				to_chat(src, "<span class='warning'>You burst out of \the [U]!</span>")
 				drop_from_inventory(U)
 				return
-		var/image/standing = U.get_standing_overlay(src, default_path, uniform_sheet, -UNIFORM_LAYER, "uniformblood")
+		var/image/standing = U.get_standing_overlay(src, bodytype.uniform_sprites, uniform_sheet, -UNIFORM_LAYER, "uniformblood", spare_icon_path = bodytype.spare_uniform_sprites)
 		standing = update_height(standing)
 		standing.pixel_x += species.offset_features[OFFSET_UNIFORM][1]
 		standing.pixel_y += species.offset_features[OFFSET_UNIFORM][2]
@@ -486,7 +481,7 @@ Please contact me on #coderbus IRC. ~Carn x
 				gloves.screen_loc = ui_gloves		//...draw the item in the inventory screen
 			client.screen += gloves					//Either way, add the item to the HUD
 
-		var/image/standing = gloves.get_standing_overlay(src, 'icons/mob/hands.dmi', SPRITE_SHEET_GLOVES, -GLOVES_LAYER, "bloodyhands")
+		var/image/standing = gloves.get_standing_overlay(src, bodytype.gloves_sprites, SPRITE_SHEET_GLOVES, -GLOVES_LAYER, "bloodyhands", spare_icon_path = bodytype.spare_gloves_sprites)
 		standing = human_update_offset(standing, FALSE)
 		standing.pixel_x += species.offset_features[OFFSET_GLOVES][1]
 		standing.pixel_y += species.offset_features[OFFSET_GLOVES][2]
@@ -563,7 +558,7 @@ Please contact me on #coderbus IRC. ~Carn x
 				shoes.screen_loc = ui_shoes			//...draw the item in the inventory screen
 			client.screen += shoes					//Either way, add the item to the HUD
 
-		var/image/standing = shoes.get_standing_overlay(src, 'icons/mob/feet.dmi', SPRITE_SHEET_FEET, -SHOES_LAYER, "shoeblood")
+		var/image/standing = shoes.get_standing_overlay(src, bodytype.shoes_sprites, SPRITE_SHEET_FEET, -SHOES_LAYER, "shoeblood", spare_icon_path = bodytype.spare_shoes_sprites)
 		standing.pixel_x += species.offset_features[OFFSET_SHOES][1]
 		standing.pixel_y += species.offset_features[OFFSET_SHOES][2]
 		overlays_standing[SHOES_LAYER] = standing
@@ -648,7 +643,6 @@ Please contact me on #coderbus IRC. ~Carn x
 
 /mob/living/carbon/human/update_inv_wear_suit()
 	remove_standing_overlay(SUIT_LAYER)
-	var/default_path = 'icons/mob/suit.dmi'
 
 	if(istype(wear_suit, /obj/item/clothing/suit))
 		if(client && hud_used && hud_used.hud_shown)
@@ -662,13 +656,12 @@ Please contact me on #coderbus IRC. ~Carn x
 		if(HAS_TRAIT(src, TRAIT_FAT))
 			if(wear_suit.flags & ONESIZEFITSALL)
 				suit_sheet = SPRITE_SHEET_SUIT_FAT
-				default_path = 'icons/mob/suit_fat.dmi'
 			else
 				to_chat(src, "<span class='warning'>You burst out of \the [wear_suit]!</span>")
 				drop_from_inventory(wear_suit)
 				return
 
-		var/image/standing = S.get_standing_overlay(src, default_path, suit_sheet, -SUIT_LAYER, "[S.blood_overlay_type]blood")
+		var/image/standing = S.get_standing_overlay(src, bodytype.suit_sprites, suit_sheet, -SUIT_LAYER, "[S.blood_overlay_type]blood")
 		standing = update_height(standing)
 		standing.pixel_x += species.offset_features[OFFSET_SUIT][1]
 		standing.pixel_y += species.offset_features[OFFSET_SUIT][2]

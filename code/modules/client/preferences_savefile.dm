@@ -733,6 +733,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["real_name"]             >> real_name
 	S["name_is_always_random"] >> be_random_name
 	S["gender"]                >> gender
+	S["bodytype"]              >> bodytype
 	S["neuter_gender_voice"]   >> neuter_gender_voice
 	S["age"]                   >> age
 	S["height"]                >> height
@@ -935,6 +936,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["name_is_always_random"] << be_random_name
 	S["gender"]                << gender
 	S["neuter_gender_voice"]   << neuter_gender_voice
+	S["bodytype"]              << bodytype
 	S["age"]                   << age
 	S["height"]                << height
 	S["species"]               << species

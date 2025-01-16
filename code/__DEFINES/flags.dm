@@ -115,6 +115,7 @@ var/global/list/bitflags = list(1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 204
 #define NO_SLIP            "no_slip"
 #define NO_MED_HEALTH_SCAN "no_med_health_scan"
 #define NO_WILLPOWER       "no_willpower"
+#define HAS_BODY_TYPE_SELECTION     "has_body_type_selection"
 
 //Species Diet Flags
 #define DIET_MEAT		1 // Meat.

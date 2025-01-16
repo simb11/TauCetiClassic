@@ -15,6 +15,9 @@
 	. += 						"<br><b>Age:</b> <a href='byond://?_src_=prefs;preference=age;task=input'>[age]</a>"
 	if(!specie_obj.flags[NO_GENDERS])
 		. += 					"<br><b>Gender:</b> <a href='byond://?_src_=prefs;preference=gender'><b>[gender == MALE ? "Male" : "Female"]</b></a>"
+	if(specie_obj.flags[HAS_BODY_TYPE_SELECTION] && gender == FEMALE)
+		. +="<br><b>Body Type:</b> <a href='byond://?_src_=prefs;preference=bodytype'><b>[bodytype == BODY_TYPE_NORMAL ? "Wide" : "Slim"]</b></a>"
+
 	if(species == IPC)  // only ipc can change their voice at this moment
 		. += 					"<br><b>Voice:</b> <a href='byond://?_src_=prefs;preference=gendervoice'><b>[neuter_gender_voice == MALE ? "Male" : "Female"]</b></a>"
 	. += 						"<br><b>Height:</b> <a href='byond://?_src_=prefs;preference=height;task=input'>[height]</a>"
@@ -302,6 +305,10 @@
 						f_style = random_facial_hair_style(gender, species)
 						h_style = random_hair_style(gender, species, ipc_head)
 						neuter_gender_voice = MALE
+						if(gender == FEMALE)
+							bodytype = specie_obj.default_female_bodytype
+						else
+							bodytype = BODY_TYPE_NORMAL
 						age = rand(specie_obj.min_age, specie_obj.max_age)
 						ResetJobs()
 						UpdateAllowedQuirks()
@@ -604,14 +611,23 @@
 				if("gender")
 					if(specie_obj.flags[NO_GENDERS])
 						gender = NEUTER
+						bodytype = BODY_TYPE_NORMAL
 						return
 					if(gender == MALE)
 						gender = FEMALE
+						bodytype = specie_obj.default_female_bodytype
 					else
 						gender = MALE
+						bodytype = BODY_TYPE_NORMAL
 
 					f_style = random_facial_hair_style(gender, species)
 					h_style = random_hair_style(gender, species, ipc_head)
+
+				if("bodytype")
+					if(bodytype == BODY_TYPE_NORMAL)
+						bodytype = BODY_TYPE_SLIM
+					else
+						bodytype = BODY_TYPE_NORMAL
 
 				if("gendervoice")
 					neuter_gender_voice = neuter_gender_voice == MALE ? FEMALE : MALE
