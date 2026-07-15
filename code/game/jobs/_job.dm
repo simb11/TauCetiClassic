@@ -192,6 +192,8 @@
 	return (current_positions < total_positions) || (total_positions == -1)
 
 /datum/job/proc/map_check()
+	if(SSmapping.config.map_name == "SGS Rover")
+		return FALSE
 	return TRUE
 
 /datum/job/proc/get_skillset(mob/living/carbon/human/H)

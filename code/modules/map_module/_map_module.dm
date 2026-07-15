@@ -1,6 +1,7 @@
 /datum/map_module
 	var/name = "default"
 
+
 	var/default_event_name
 	var/default_event_message
 

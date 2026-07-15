@@ -88,6 +88,9 @@
 		if(istype(previewJob, /datum/job/cyborg))
 			parent.show_character_previews(image('icons/mob/robots.dmi', "robot", dir = SOUTH))
 			return
+		if(istype(previewJob, /datum/job/colonial_marines_event/xeno))
+			parent.show_character_previews(image('icons/mob/alien.dmi', "larva2", dir = SOUTH))
+			return
 
 	// Set up the dummy for its photoshoot
 	var/mob/living/carbon/human/dummy/mannequin = generate_or_wait_for_human_dummy(DUMMY_HUMAN_SLOT_PREFERENCES, species)

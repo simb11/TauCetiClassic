@@ -637,6 +637,7 @@
 	button_icon_state = "toggle_rig_magboots"
 	action_type = AB_INNATE
 
+
 /datum/action/item_action/hands_free/toggle_hardsuit_magboots/Activate()
 	var/obj/item/clothing/suit/space/rig/S = target
 	S.toggle_magboots()

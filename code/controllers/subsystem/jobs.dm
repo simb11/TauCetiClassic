@@ -39,6 +39,8 @@ SUBSYSTEM_DEF(job)
 /datum/controller/subsystem/job/proc/InitLists()
 	for(var/D in subtypesof(/datum/department))
 		var/datum/department/department = new D()
+		if(department.isallowed() == FALSE)
+			continue
 		departments += department
 		name_departments[department.title] = department
 		if(department.head)
@@ -56,6 +58,7 @@ SUBSYSTEM_DEF(job)
 		name_occupations[job.title] = job
 		for(var/department_title in job.departments)
 			departments_occupations[department_title] += job.title
+
 
 	sortTim(departments_occupations, GLOBAL_PROC_REF(cmp_department_titles))
 	for(var/dep in departments_occupations)
@@ -505,6 +508,9 @@ SUBSYSTEM_DEF(job)
 		switch(rank)
 			if("Cyborg")
 				H.Robotize()
+				return TRUE
+			if(JOB_ALIEN)
+				H.larvanize()
 				return TRUE
 			if("AI")
 				return H

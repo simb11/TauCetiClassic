@@ -9,3 +9,8 @@
 	var/color = "#ffffff"
 	// if we should create account for this department
 	var/station_account = TRUE
+
+/datum/department/proc/isallowed()
+	if(SSmapping.config.map_name == "SGS Rover")
+		return FALSE
+	return TRUE

@@ -1,0 +1,16 @@
+{
+	"map_name": "SGS Rover",
+	"map_path": "_events",
+	"map_file": "rover.dmm",
+	"station_name": "SGS Rover",
+	"map_module": "Tau Colonial Marines",
+	"traits": [
+		{
+			"Linkage": null
+		}
+	],
+	"space_ruin_levels": 0,
+	"space_empty_levels": 0,
+	"load_junkyard": 0,
+	"minetype": "tcm_planet"
+}

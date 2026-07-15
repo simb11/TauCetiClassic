@@ -31,7 +31,7 @@
 	var/minetype = "asteroid"
 	var/smartlight_preset = "default"
 
-	var/map_module = null
+	var/map_module = "Colonial Marines"
 
 /proc/load_map_config(filename = "data/next_map.json", default_to_box, delete_after, error_if_missing = TRUE)
 	var/datum/map_config/config = new
@@ -180,7 +180,7 @@
 		else
 			mapname += "inf"
 		mapname += "\]"
-	
+
 	return mapname
 
 /datum/map_config/proc/MakeNextMap()

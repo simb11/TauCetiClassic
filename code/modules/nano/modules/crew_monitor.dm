@@ -82,6 +82,7 @@
 	data["nanomapPayload"] = SSmapping.tgui_nanomap_payload()
 	return data
 
+
 /obj/crew_monitor_module/proc/scan()
 	for(var/mob/living/carbon/human/H as anything in human_list)
 		var/obj/item/clothing/under/C

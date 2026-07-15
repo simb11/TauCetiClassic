@@ -501,3 +501,7 @@
 	armor = list(melee = 40, bullet = 5, laser = 40, energy = 25, bomb = 0, bio = 0, rad = 0)
 	flags_inv = HIDEJUMPSUIT
 	siemens_coefficient = 0.4
+
+/obj/item/clothing/suit/armor/vest/aux
+	icon_state = "aux_armor"
+	armor = list(melee = 40, bullet = 60, laser = 30, energy = 15, bomb = 60, bio = 0, rad = 0)

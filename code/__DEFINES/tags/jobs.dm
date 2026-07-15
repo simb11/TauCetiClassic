@@ -85,3 +85,42 @@
 
 #define JOB_BLUESHIELD "Blueshield Officer"
 #define JOB_LAWYER "Internal Affairs Agent"
+
+/* Colonial Marines Event departaments*/
+#define DEP_SGMC_COMMAND "SGMC Command"
+#define DEP_SGMC_MEDICAL "SGMC Medical"
+#define DEP_SGMC_AUXILIARY_SUPPORT "SGMC Auxiliary Support"
+
+#define DEP_ALPHA_SQUAD "Alpha Squad"
+#define DEP_BRAVO_SQUAD "Bravo Squad"
+
+#define DEP_ALIENS "Aliens"
+
+
+/* Colonial Marines Event jobs*/
+#define JOB_COMMANDING_OFFICER "Commanding Officer"
+#define JOB_MP "Military Police"
+
+#define JOB_FIELD_SURGEON "Field Surgeon"
+#define JOB_NURSE "Nurse"
+
+#define JOB_AUXILIARY_OFFICER "Auxiliary Support Officer"
+#define JOB_ORDNANCE_TECHNICIAN "Ordnance Technician"
+#define JOB_RESEARCHER "Researcher"
+#define JOB_MECH_OPERATOR "Mech Operator"
+
+#define JOB_ALPHA_LEADER "Alpha Squad Leader"
+#define JOB_ALPHA_SMARTGUNNER "Alpha Squad Smartgunner"
+#define JOB_ALPHA_SPECIALIST "Alpha Squad Weapon Specialist"
+#define JOB_ALPHA_CORPSMAN "Alpha Squad Corpsman"
+#define JOB_ALPHA_TECHNICIAN "Alpha Squad Technician"
+#define JOB_ALPHA_RIFLEMAN "Alpha Squad Rifleman"
+
+#define JOB_BRAVO_LEADER "Bravo Squad Leader"
+#define JOB_BRAVO_SMARTGUNNER "Bravo Squad Smartgunner"
+#define JOB_BRAVO_SPECIALIST "Bravo Squad Weapon Specialist"
+#define JOB_BRAVO_CORPSMAN "Bravo Squad Corpsman"
+#define JOB_BRAVO_TECHNICIAN "Bravo Squad Technician"
+#define JOB_BRAVO_RIFLEMAN "Bravo Squad Rifleman"
+
+#define JOB_ALIEN "Xenomorph"

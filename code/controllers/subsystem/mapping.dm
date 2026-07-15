@@ -259,6 +259,9 @@ SUBSYSTEM_DEF(mapping)
 		else if(config.minetype == "prometheus_asteroid")
 			mine_image = "prometheus_asteroid"
 			LoadGroup(FailedZs, "Asteroid", "prometheus_asteroid", "prometheus_asteroid.dmm", default_traits = ZTRAITS_ASTEROID)
+		else if(config.minetype == "tcm_planet")
+			//mine_image = "prometheus_asteroid"
+			LoadGroup(FailedZs, "Asteroid", "_events", "tcm_planet.dmm", default_traits = ZTRAITS_FOREST)
 		else if (!isnull(config.minetype))
 			INIT_ANNOUNCE("WARNING: An unknown minetype '[config.minetype]' was set! This is being ignored! Update the maploader code!")
 

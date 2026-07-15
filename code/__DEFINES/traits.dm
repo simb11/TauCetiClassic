@@ -300,6 +300,10 @@
 #define TRAIT_UNDERFLOOR "underfloor"
 #define TRAIT_CONDUCT "conduct"
 
+#define TRAIT_GENERIC_SQUAD_MEMBER "Squad Member"
+#define TRAIT_ALPHA_SQUAD_MEMBER "Alpha Squad Member"
+#define TRAIT_BRAVO_SQUAD_MEMBER "Bravo Squad Member"
+
 // trait sources
 #define TRAIT_FROM_ELEMENT(source) "element_trait_[source]"
 #define INNATE_TRAIT "innate"

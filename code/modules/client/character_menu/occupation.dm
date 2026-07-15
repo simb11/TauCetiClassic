@@ -81,7 +81,7 @@
 				. += "<font color=red size=2>NEVER</font>"
 			. += "</a>"
 			. += "</div>"
-		
+
 		. += "</div>"
 
 	. += "</div></table>"

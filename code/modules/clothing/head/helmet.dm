@@ -206,6 +206,22 @@
 	desc = "Sturdy kevlar beret in protective colors, issued to low-ranking NTCM officers."
 	icon_state = "beret_marinad"
 
+/obj/item/clothing/head/helmet/tactical/marinad/commanding_officer
+	name = "marine beret"
+	desc = "Sturdy kevlar beret in protective colors, issued to low-ranking NTCM officers."
+	icon_state = "beret_comm_officer"
+
+/obj/item/clothing/head/helmet/tactical/marinad/qm
+	name = "marine cap"
+	desc = "Sturdy kevlar cap in protective colors, issued to low-ranking NTCM officers."
+	icon_state = "marinesqmhat"
+
+/obj/item/clothing/head/helmet/tactical/marinad/military_police
+	name = "MP beret"
+	desc = "Sturdy kevlar beret in protective colors, issued to low-ranking NTCM officers."
+	icon_state = "beret_warden"
+
+
 /obj/item/clothing/head/helmet/helmet_of_justice
 	name = "helmet of justice"
 	desc = "Prepare for Justice!"

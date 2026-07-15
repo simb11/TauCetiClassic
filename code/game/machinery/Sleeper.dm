@@ -314,6 +314,7 @@
 		playsound(src, 'sound/machines/synth_no.ogg', VOL_EFFECTS_MASTER, vary = FALSE)
 	updateUsrDialog()
 
+
 /obj/machinery/sleeper/open_machine()
 	if(!state_open && !panel_open)
 		..()

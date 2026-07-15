@@ -48,6 +48,22 @@
 	armor = list(melee = 10, bullet = 5, laser = 5,energy = 0, bomb = 0, bio = 0, rad = 0)
 	siemens_coefficient = 0.9
 
+/obj/item/clothing/under/tactical/marinad/commanding_officer
+	name = "commanding officer's suit"
+	icon_state = "marines_commander"
+	item_state = "marines_commander"
+
+/obj/item/clothing/under/tactical/marinad/qm
+	name = "auxiliary turtlneck"
+	icon_state = "marines_qm"
+	item_state = "marines_qm"
+
+/obj/item/clothing/under/tactical/marinad/mp
+	name = "military police uniform"
+	icon_state = "mp"
+	item_state = "mp"
+
+
 /obj/item/clothing/under/tactical/skrell
 	name = "raskinta uniform"
 	desc = "It's a traditional skrellian warrior-caste blue and black uniform. Skintight, sturdy and slightly wet."

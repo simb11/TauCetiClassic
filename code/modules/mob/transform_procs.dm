@@ -357,6 +357,18 @@
 	. = O
 	qdel(src)
 
+/mob/living/carbon/human/proc/larvanize()
+	for(var/obj/item/W in src)
+		qdel(W)
+	for(var/t in bodyparts)
+		qdel(t)
+	var/mob/living/carbon/xenomorph/larva/new_larva
+
+	new_larva.key = key
+
+	qdel(src)
+	return
+
 //human -> alien
 /mob/living/carbon/human/proc/Alienize()
 	if (notransform)
