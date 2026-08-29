@@ -210,6 +210,7 @@
 		/obj/item/weapon/storage/firstaid/tactical,
 		/obj/item/weapon/storage/box/flashbangs,
 		/obj/item/device/flashlight/seclite,
+		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/plastique,
 		/obj/item/weapon/tank/emergency_oxygen/double,
 		/obj/item/weapon/shield/energy
@@ -268,6 +269,7 @@
 		/obj/item/weapon/storage/firstaid/tactical,
 		/obj/item/weapon/storage/box/flashbangs,
 		/obj/item/device/flashlight/seclite,
+		/obj/item/weapon/grenade/frag,
 		/obj/item/weapon/pinpointer,
 		/obj/item/weapon/disk/nuclear,
 		/obj/item/weapon/plastique,
@@ -530,6 +532,7 @@
 	backpack_contents = list(
 	/obj/item/weapon/storage/box/space_suit/combat,
 	/obj/item/weapon/storage/firstaid/small_firstaid_kit/combat,
+	/obj/item/weapon/grenade/frag,
 	)
 
 	var/list/rank = list("Pvt.", "PFC", "LCpl.", "Cpl.")
@@ -557,6 +560,8 @@
 	backpack_contents = list(
 	/obj/item/weapon/storage/box/space_suit/combat,
 	/obj/item/weapon/storage/firstaid/small_firstaid_kit/combat,
+	/obj/item/weapon/grenade/frag,
+	/obj/item/weapon/grenade/frag,
 	/obj/item/ammo_casing/r4046/explosive/light,
 	/obj/item/ammo_casing/r4046/explosive/light,
 	/obj/item/ammo_casing/r4046/explosive/light,
