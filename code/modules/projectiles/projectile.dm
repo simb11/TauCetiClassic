@@ -414,7 +414,7 @@ var/global/static/list/taser_projectiles = list(
 		pellet.muzzle_type = null
 		pellet.process()
 		for(var/mob/M in epicenter) // the hero who will absorb all fragments
-			if(M.stat != DEAD)
+			if((M.stat != DEAD) && (prob(75)))
 				M.bullet_act(pellet, pellet.def_zone)
 				qdel(pellet)
 
