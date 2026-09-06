@@ -398,7 +398,7 @@ var/global/static/list/taser_projectiles = list(
 
 
 /proc/create_blast_of_frags(radius, turf/epicenter, obj/item/projectile/projectile_type)
-	var/list/all_the_turfs_were_gonna_lacerate = RANGE_TURFS(radius, epicenter) - RANGE_TURFS(radius-1, epicenter)
+	var/list/all_the_turfs_were_gonna_lacerate = BORDER_TURFS(radius, epicenter)
 	for(var/T in all_the_turfs_were_gonna_lacerate)
 		var/turf/shootat_turf = T
 		var/obj/item/projectile/pellet = new projectile_type(epicenter)
