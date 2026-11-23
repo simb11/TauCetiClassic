@@ -11,6 +11,8 @@
 
 
 /datum/job/colonial_marines_event/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	var/datum/faction/event_colonial_marines/CM = create_uniq_faction(/datum/faction/event_colonial_marines)
+	add_faction_member(CM, H, TRUE)
 	if(istype(H.wear_id, /obj/item/weapon/card/id)) // check id card
 		var/obj/item/weapon/card/id/id = H.wear_id
 		id.sec_hud_icon = title

@@ -61,6 +61,10 @@
 	max_ammo = 1
 	multiload = 0
 
+/obj/item/ammo_box/magazine/internal/heavyrifle/marines_amr
+	ammo_type = /obj/item/ammo_casing/a2082
+	caliber = "20x82"
+
 /obj/item/ammo_box/magazine/internal/m79
 	name = "m79 grenade launcher internal magazine"
 	desc = "О боже, этого не должно было здесь быть!"

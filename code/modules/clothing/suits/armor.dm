@@ -505,3 +505,33 @@
 /obj/item/clothing/suit/armor/vest/aux
 	icon_state = "aux_armor"
 	armor = list(melee = 40, bullet = 60, laser = 30, energy = 15, bomb = 60, bio = 0, rad = 0)
+
+/obj/item/clothing/suit/armor/vest/marines_light
+	name = "light infantry armor"
+	icon_state = "armor_surplus_1"
+	armor = list(melee = 45, bullet = 45, laser = 20, energy = 20, bomb = 25, bio = 0, rad = 0)
+
+/obj/item/clothing/suit/armor/vest/marines_medium
+	name = "medium infantry armor"
+	icon_state = "surplus_fullbody"
+	armor = list(melee = 50, bullet = 50, laser = 25, energy = 25, bomb = 30, bio = 0, rad = 0)
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	pierce_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	slowdown = 0.25
+
+/obj/item/clothing/suit/armor/vest/marines_medium/sniper
+	name = "recon armor"
+	icon_state = "marines_sniper_armor"
+	armor = list(melee = 50, bullet = 50, laser = 25, energy = 25, bomb = 30, bio = 0, rad = 0)
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	pierce_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	slowdown = 0
+
+/obj/item/clothing/suit/armor/vest/marines_heavy
+	name = "heavy infantry armor"
+	icon_state = "marinad"
+	item_state = "marinad_armor"
+	armor = list(melee = 75, bullet = 75, laser = 50, energy = 35, bomb = 50, bio = 0, rad = 0)
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	pierce_protection = UPPER_TORSO|LOWER_TORSO|ARMS|LEGS
+	slowdown = 0.5

@@ -131,6 +131,15 @@
 	impact_force = 5
 	hitscan = 1
 
+/obj/item/projectile/bullet/heavy/a2082
+	damage = 150
+	stun = 3
+	weaken = 3
+	impact_force = 5
+	hitscan = 1
+	armor_multiplier = 0.25
+	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
+
 /obj/item/projectile/bullet/grenade/r4046
 	name = "rubber grenade"
 	damage = 10

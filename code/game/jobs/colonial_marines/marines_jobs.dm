@@ -190,6 +190,9 @@
 	outfit = /datum/outfit/job/marine
 	skillsets = list("Captain" = /datum/skillset/captain)
 
+/datum/job/colonial_marines_event/alpha_specialist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	ADD_TRAIT(H, TRAIT_WEAPONS_SPECIALIST, INNATE_TRAIT)
+	..()
 
 /datum/job/colonial_marines_event/alpha_corpsman
 	title = JOB_ALPHA_CORPSMAN
@@ -279,6 +282,10 @@
 	access = list() 			//See get_access()
 	outfit = /datum/outfit/job/marine
 	skillsets = list("Captain" = /datum/skillset/captain)
+
+/datum/job/colonial_marines_event/bravo_specialist/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	ADD_TRAIT(H, TRAIT_WEAPONS_SPECIALIST, INNATE_TRAIT)
+	..()
 
 /datum/job/colonial_marines_event/bravo_corpsman
 	title = JOB_BRAVO_CORPSMAN

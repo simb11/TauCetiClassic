@@ -290,3 +290,4 @@
 #define isimplantedobedience(L) (locate(/obj/item/weapon/implant/obedience) in L.implants)
 
 #define isimplantedblueshield(L) (locate(/obj/item/weapon/implant/blueshield) in L.implants)
+

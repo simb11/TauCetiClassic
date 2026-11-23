@@ -5,6 +5,7 @@
 // Common event stuff
 #define TEAM_NAME_RED "Red Team"
 #define TEAM_NAME_BLUE "Blue Team"
+#define COLONIAL_MARINES_FACTION "Colonial Marines"
 
 // Forts event stuff
 #define FORTS_ROLE_MEMBER "Team Member"

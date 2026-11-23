@@ -156,6 +156,8 @@
 /obj/item/projectile/proc/get_miss_modifier(mob/living/L)
 	var/distance = get_dist(starting, loc) //More distance = less damage, except for high fire power weapons.
 	var/miss_modifier = 0
+	if(L.mind && L.mind.GetRoleByType(/datum/role/marine) && istype(src, /obj/item/projectile/bullet/heavy/a2082))
+		return 1000
 	if(distance <= 1) // cant miss almost pointblank (1 or 2 tiles between target and start)
 		return -100
 	if(damage && (distance > 7))

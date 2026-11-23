@@ -143,6 +143,12 @@
 	caliber = "14.5mm"
 	projectile_type = /obj/item/projectile/bullet/heavy/a145
 
+/obj/item/ammo_casing/a2082
+	desc = "Патрон пули 20x82мм (SMART)."
+	icon_state = "lcasing"
+	caliber = "20x82"
+	projectile_type = /obj/item/projectile/bullet/heavy/a2082
+
 
 /obj/item/ammo_casing/r4046
 	name = "40x46mm grenade"

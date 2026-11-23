@@ -66,3 +66,17 @@
 /obj/item/weapon/gun/projectile/heavyrifle/atom_init()
 	. = ..()
 	AddComponent(/datum/component/zoom, 9, TRUE)
+
+/obj/item/weapon/gun/projectile/heavyrifle/marines_amr
+	name = "W-D Chris AMR"
+	desc = "Крупнокалиберная винтовка военного образца от Вард-Такахаши ГМБ. Обладает системой IFF. Использует калибр 20х82мм (SMART)."
+	icon_state = "amr"
+	item_state = "amr"
+	w_class = SIZE_BIG
+	initial_mag = /obj/item/ammo_box/magazine/internal/heavyrifle/marines_amr
+
+/obj/item/weapon/gun/projectile/heavyrifle/marines_amr/attack_self(mob/user)
+	if(!HAS_TRAIT(user, TRAIT_WEAPONS_SPECIALIST))
+		to_chat(user, "<span class='warn'>Что за идиот конструировал эту винтовку? Как её перезаряжать?!</span>")
+		return
+	..()

@@ -6,7 +6,6 @@
 
 	gamemode = "Extended"
 	config_disable_random_events = TRUE
-
 	admin_verbs = list(
 
 	)
