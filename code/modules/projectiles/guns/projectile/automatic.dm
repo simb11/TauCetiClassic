@@ -313,6 +313,23 @@
 	icon_state = "krinkov"
 	item_state = "krinkov"
 
+/obj/item/weapon/gun/projectile/automatic/fal
+	name = "GI FAL-S"
+	desc = "Тяжёлая полуавтоматическая винтовка под калибр 5.56 от 'Гефест Индастриз'. Обладает интегрированным прицелом."
+	initial_mag = /obj/item/ammo_box/magazine/dmr
+	suitable_mags = list(/obj/item/ammo_box/magazine/dmr)
+	w_class = SIZE_NORMAL
+	two_hand_weapon = DESIRABLE_TWOHAND
+	slot_flags = SLOT_FLAGS_BACK
+	icon_state = "dmr"
+	item_state = "dmr"
+	fire_sound = 'sound/weapons/guns/gunshot_medium.ogg'
+	fire_delay = 5
+
+/obj/item/weapon/gun/projectile/automatic/fal/atom_init()
+	. = ..()
+	AddComponent(/datum/component/zoom, 9, TRUE)
+
 /obj/item/weapon/gun/projectile/automatic/drozd
 	name = "OTs-114 assault rifle"
 	desc = "Известный также как \"Дрозд\", этот маленький сукин сын оснащен чертовым гранатометом! Как же это круто!"

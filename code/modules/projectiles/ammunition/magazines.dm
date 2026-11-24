@@ -512,6 +512,18 @@
 	max_ammo = 15
 	overlay = "krinkov-mag"
 
+/obj/item/ammo_box/magazine/dmr
+	name = "magazine (7.74mm)"
+	cases = list("магазин (7.74мм)", "магазина (7.74мм)", "магазину (7.74мм)", "магазин (7.74мм)", "магазином (7.74мм)", "магазине (7.74мм)")
+	icon_state = "dmr"
+	origin_tech = "combat=3"
+	ammo_type = /obj/item/ammo_casing/a556
+	caliber = "5.56mm"
+	max_ammo = 20
+	multiple_sprites = TWO_STATES
+	overlay = "dmr-mag"
+
+
 /obj/item/ammo_box/magazine/plasma
 	name = "plasma weapon battery pack"
 	cases = list("батарейный блок плазменного оружия", "батарейного блока плазменного оружия", "батарейному блоку плазменного оружия", "батарейный блок плазменного оружия", "батарейным блоком плазменного оружия", "батарейном блоке плазменного оружия")
